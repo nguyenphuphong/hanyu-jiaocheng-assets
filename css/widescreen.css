@@ -13,30 +13,36 @@
     width: 290px;
 }
 
-#nav #nav-left {
-	float: left;
-	width: 100%;
+#nav #nav-header {
 	font-size: 40px;
     height: 60px;
     text-align: center;
     font-weight: bold;
 }
 
-#nav #nav-left > a {
+#nav #nav-header #nav-left {
+	float: left;
+	width: 100%;
+}
+
+#nav #nav-header #nav-left > a {
     text-decoration: none;
     color: black;
 }
 
-#nav #nav-right {
+#nav #nav-header #nav-right {
 	display: none;
 	float: right;
-	width: 0px;
-	font-weight: bold;
+	width: 80px;
 	border-left: 1px solid black;
 	padding: 10px auto;
 }
 
-#nav > ul {
+#nav #nav-content {
+
+}
+
+#nav ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;

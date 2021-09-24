@@ -9,34 +9,40 @@
 }
 
 #nav {
-	display: none;
     float: left;
     width: 100%;
 }
 
-#nav #nav-left {
-	float: left;
-	width: 200px;
+#nav #nav-header {
 	font-size: 40px;
     height: 60px;
     text-align: center;
     font-weight: bold;
 }
 
-#nav #nav-left > a {
+#nav #nav-header #nav-left {
+	float: left;
+	width: 100%;
+}
+
+#nav #nav-header #nav-left > a {
     text-decoration: none;
     color: black;
 }
 
-#nav #nav-right {
+#nav #nav-header #nav-right {
 	float: right;
 	width: 80px;
-	font-weight: bold;
 	border-left: 1px solid black;
 	padding: 10px auto;
 }
 
-#nav > ul {
+#nav #nav-content {
+	display: none;
+	height: 100%;
+}
+
+#nav ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
