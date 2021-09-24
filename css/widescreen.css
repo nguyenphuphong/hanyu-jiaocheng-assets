@@ -88,6 +88,10 @@ body {
 	font-weight: 500;
 }
 
+hr {
+	border: 1px solid black;
+}
+
 .vietnamese {
 	font-family: "Times New Roman", Arial, Helvetica, sans-serif;
 	font-size: 15px;
