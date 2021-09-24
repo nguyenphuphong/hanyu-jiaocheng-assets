@@ -1,0 +1,82 @@
+#loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/img/loader.gif) 50% 50% no-repeat #fbfbf8;
+}
+
+#nav {
+    float: left;
+    width: 100%;
+}
+
+#nav > ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+}
+
+#nav li a:hover {
+    background-color: black;
+    color: white;
+}
+
+#nav .active {
+    background-color: black;
+    color: white;
+}
+
+#content {
+    float: left;
+    width: 100%;
+	padding-left: 10px;
+}
+
+@font-face {
+	font-family: stsong;
+	src: url(https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/font/stsong.ttf);
+}
+
+@font-face {
+	font-family: times;
+	src: url(https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/font/times.ttf);
+}
+
+@font-face {
+	font-family: pinyinfont;
+	src: url(https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/font/pinyinfont.ttf);
+}
+
+body {
+	font-family: stsong;
+	background-color: #fbfbf8;
+    font-size: 40px;
+	font-weight: 500;
+}
+
+.vietnamese {
+	font-family: times;
+}
+
+.title {
+    font-size: 40px;
+    height: 60px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.title a {
+    text-decoration: none;
+    color: black;
+}
