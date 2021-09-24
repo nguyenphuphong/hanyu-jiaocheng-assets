@@ -14,7 +14,7 @@
     width: 100%;
 }
 
-#nav > #nav-left {
+#nav #nav-left {
 	float: left;
 	width: 200px;
 	font-size: 40px;
@@ -23,12 +23,12 @@
     font-weight: bold;
 }
 
-#nav > #nav-left > a {
+#nav #nav-left > a {
     text-decoration: none;
     color: black;
 }
 
-#nav > #nav-right {
+#nav #nav-right {
 	float: right;
 	width: 80px;
 	font-weight: bold;
