@@ -32,14 +32,6 @@
 
 #nav #nav-header #nav-right {
 	display: none;
-	float: right;
-	width: 80px;
-	border-left: 1px solid black;
-	padding: 10px auto;
-}
-
-#nav #nav-content {
-
 }
 
 #nav ul {
@@ -67,7 +59,7 @@
 
 #content {
     float: left;
-    width: calc(100% - 300px);
+    width: calc(100% - 310px);
 	padding-left: 10px;
 	border-left: 1px solid black;
 }
