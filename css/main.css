@@ -1,5 +1,21 @@
+@font-face {
+	font-family: stsong;
+	src: url(https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/font/stsong.ttf);
+}
+
+@font-face {
+	font-family: times;
+	src: url(https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/font/times.ttf);
+}
+
+@font-face {
+	font-family: pinyinfont;
+	src: url(https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/font/pinyinfont.ttf);
+}
+
 body {
-	background-color: blue;
+	font-family: stsong;
+	background-color: #fbfbf8;
     font-size: 20px;
 	font-weight: 500;
 }
