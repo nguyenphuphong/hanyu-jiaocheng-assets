@@ -55,18 +55,18 @@
 body {
 	font-family: stsong;
 	background-color: #fbfbf8;
-    font-size: 40px;
+    font-size: 20px;
 	font-weight: 500;
 }
 
 .vietnamese {
 	font-family: "Times New Roman", Arial, Helvetica, sans-serif;
-	font-size: 30px;
+	font-size: 15px;
 }
 
 .title {
-    font-size: 80px;
-    height: 100px;
+    font-size: 40px;
+    height: 60px;
     text-align: center;
     font-weight: bold;
     border-bottom: 1px solid black;
