@@ -1,3 +1,13 @@
+#loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/img/loader.gif) 50% 50% no-repeat #fbfbf8;
+}
+
 @font-face {
 	font-family: stsong;
 	src: url(https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/font/stsong.ttf);
@@ -18,4 +28,8 @@ body {
 	background-color: #fbfbf8;
     font-size: 20px;
 	font-weight: 500;
+}
+
+.vietnamese {
+	font-family: times;
 }
