@@ -111,3 +111,22 @@ hr {
     text-decoration: none;
     color: black;
 }
+
+.row {
+	width: 100%;
+}
+
+.col-30 {
+	float: left;
+	width: 30px;
+}
+
+.col-50 {
+	float: left;
+	width: 50px;
+}
+
+.col-100 {
+	float: left;
+	width: 100px;
+}
