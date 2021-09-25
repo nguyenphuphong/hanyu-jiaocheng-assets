@@ -116,6 +116,12 @@ hr {
     color: black;
 }
 
+.row {
+	overflow: hidden;
+	width: 100%;
+	margin-top: 10px;
+}
+
 .col-20 {
 	float: left;
 	width: 20px;
