@@ -34,6 +34,10 @@
 	display: none;
 }
 
+#nav #nav-header #nav-right:hover {
+	cursor: pointer;
+}
+
 #nav ul {
     list-style-type: none;
     margin: 0px;
