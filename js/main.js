@@ -25,6 +25,17 @@ function build_lesson_navigation(page) {
 		}
 	}
 	
-	var nav_content_list = document.getElementById("nav-content-list");
-	nav_content_list.innerHTML = build_string;
+	var nav_content_ul = document.getElementById("nav-content-list");
+	nav_content_ul.innerHTML = build_string;
+}
+
+function build_learning_strategy() {
+	var build_string = "";
+	
+	for (var i = 0; i < learning_strategy_array.length; i++) {
+		build_string += "<p class=\"vietnamese\">" + learning_strategy_array[i] + "</p>";
+	}
+	
+	var learning_strategy_div = document.getElementById("learning-stratery");
+	learning_strategy_div.innerHTML = build_string;
 }
