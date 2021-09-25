@@ -39,3 +39,23 @@ function build_text_block(text_block_array, target_div_id) {
 	var target_div = document.getElementById(target_div_id);
 	target_div.innerHTML = build_string;
 }
+
+function build_row_block(row_array, target_div_id) {
+	var build_string = "";
+	
+	for (var i = 0; i < row_array.length; i++) {
+		var row = row_array[i];
+		
+		build_string += "<div class=\"row\">";
+		for (var j = 0; j < row.length; j++) {
+			var col = row[i];
+			
+			build_string += "<div class=\"col-" + col[0] + "\">" + col[1] + "</div>";
+		}
+		
+		build_string += "</div>";
+	}
+	
+	var target_div = document.getElementById(target_div_id);
+	target_div.innerHTML = build_string;
+}

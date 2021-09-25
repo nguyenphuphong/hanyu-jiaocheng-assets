@@ -4,3 +4,9 @@ var pinyin_array = [
 	"Phiên âm pinyin chính là việc sử dụng các chữ cái latinh để mô phỏng lại cách phát âm trong hán ngữ. Việc này giúp cho người mới sẽ dễ học hơn, dễ bắt chước hơn nhất là người nước ngoài.",
 	"Pinyin nói nôm na nó giống cấu trúc của tiếng Việt. Sử dụng nguyên âm để ghép với phụ âm vào tạo ra cách đọc. Chúng ta nên học pinyin vì nó còn dể dàng để sử dụng các kiểu gõ phím trên điện thoại và máy tính."
 ];
+
+var initial_01_array = [
+	[
+		[30, 'b'], [30, 'p'], [30, 'm'], [30, 'f'], [30, 'd'], [30, 't'], [30, 'n'], [30, 'l'], [30, 'g'], [30, 'k'], [30, 'h']
+	]
+];
