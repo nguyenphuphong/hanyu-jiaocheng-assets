@@ -132,6 +132,11 @@ hr {
 	width: 30px;
 }
 
+.col-35 {
+	float: left;
+	width: 35px;
+}
+
 .col-40 {
 	float: left;
 	width: 40px;
