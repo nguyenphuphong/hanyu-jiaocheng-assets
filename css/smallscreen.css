@@ -116,15 +116,19 @@ hr {
     color: black;
 }
 
-.row {
-	overflow: hidden;
-	width: 100%;
-	margin-top: 10px;
+.col-20 {
+	float: left;
+	width: 20px;
 }
 
 .col-30 {
 	float: left;
 	width: 30px;
+}
+
+.col-40 {
+	float: left;
+	width: 40px;
 }
 
 .col-50 {
