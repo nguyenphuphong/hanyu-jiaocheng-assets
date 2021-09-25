@@ -110,3 +110,7 @@ hr {
     text-decoration: none;
     color: black;
 }
+
+.none-display-at-widescreen {
+	display: none;
+}
