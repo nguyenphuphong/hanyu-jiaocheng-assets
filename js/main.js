@@ -29,13 +29,13 @@ function build_lesson_navigation(page) {
 	nav_content_ul.innerHTML = build_string;
 }
 
-function build_learning_strategy() {
+function build_text_block(text_block_array, target_div_id) {
 	var build_string = "";
 	
-	for (var i = 0; i < learning_strategy_array.length; i++) {
-		build_string += "<p class=\"vietnamese\">" + learning_strategy_array[i] + "</p>";
+	for (var i = 0; i < text_block_array.length; i++) {
+		build_string += "<p class=\"vietnamese\">" + text_block_array[i] + "</p>";
 	}
 	
-	var learning_strategy_div = document.getElementById("learning-stratery");
-	learning_strategy_div.innerHTML = build_string;
+	var target_div = document.getElementById(target_div_id);
+	target_div.innerHTML = build_string;
 }
