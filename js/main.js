@@ -19,7 +19,7 @@ function build_lesson_navigation(page) {
 		var lesson_navigator_url = lesson_navigator_array[i][1];
 		
 		if (page == i) {
-			build_string += "<li class=\"active\"><a href=\"" + lesson_navigator_url + "\">" + lesson_navigator_title + "</a></li>";
+			build_string += "<li><a class=\"active\" href=\"" + lesson_navigator_url + "\">" + lesson_navigator_title + "</a></li>";
 		} else {
 			build_string += "<li><a href=\"" + lesson_navigator_url + "\">" + lesson_navigator_title + "</a></li>";
 		}
