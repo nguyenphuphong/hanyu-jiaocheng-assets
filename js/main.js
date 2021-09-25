@@ -48,7 +48,7 @@ function build_row_block(row_array, target_div_id) {
 		
 		build_string += "<div class=\"row\">";
 		for (var j = 0; j < row.length; j++) {
-			var col = row[i];
+			var col = row[j];
 			
 			build_string += "<div class=\"col-" + col[0] + "\">" + col[1] + "</div>";
 		}
