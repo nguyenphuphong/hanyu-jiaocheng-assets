@@ -63,8 +63,8 @@
 
 #content {
     float: left;
-    width: calc(100% - 310px);
-	padding: 10px auto;
+    width: calc(100% - 330px);
+	padding: 10px 10px 10px 10px;
 	border-left: 1px solid black;
 }
 
