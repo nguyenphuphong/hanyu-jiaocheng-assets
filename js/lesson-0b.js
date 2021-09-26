@@ -55,3 +55,45 @@ var combination_01_array = [
 		[50, '&nbsp;'], [50, '&nbsp;'], [50, '&nbsp;'], [50, 'yi'], [50, 'wu'], [50, 'yu'], [50, '&nbsp;'], [50, '&nbsp;'], [50, '&nbsp;'], [50, '&nbsp;']
 	],
 ];
+
+var final_02_array = [
+	[
+		[50, 'an'], [50, 'en'], [50, 'ang'], [50, 'eng'], [50, 'ong']
+	]
+];
+
+var combination_02_array = [
+	[
+		[50, 'ban'], [50, 'ben'], [50, 'bang'], [50, 'beng'], [50, '&nbsp;']
+	],
+	[
+		[50, 'pan'], [50, 'pen'], [50, 'pang'], [50, 'peng'], [50, '&nbsp;']
+	],
+	[
+		[50, 'man'], [50, 'men'], [50, 'mang'], [50, 'meng'], [50, '&nbsp;']
+	],
+	[
+		[50, 'fan'], [50, 'fen'], [50, 'fang'], [50, 'feng'], [50, '&nbsp;']
+	],
+	[
+		[50, 'dan'], [50, 'den'], [50, 'dang'], [50, 'deng'], [50, 'dong']
+	],
+	[
+		[50, 'tan'], [50, '&nbsp;'], [50, 'tang'], [50, 'teng'], [50, 'tong']
+	],
+	[
+		[50, 'nan'], [50, 'nen'], [50, 'nang'], [50, 'neng'], [50, 'nong']
+	],
+	[
+		[50, 'lan'], [50, '&nbsp;'], [50, 'lang'], [50, 'leng'], [50, 'long']
+	],
+	[
+		[50, 'gan'], [50, 'gen'], [50, 'gang'], [50, 'geng'], [50, 'gong']
+	],
+	[
+		[50, 'kan'], [50, 'ken'], [50, 'kang'], [50, 'keng'], [50, 'kong']
+	],
+	[
+		[50, 'han'], [50, 'hen'], [50, 'hang'], [50, 'heng'], [50, 'hong']
+	]
+];
