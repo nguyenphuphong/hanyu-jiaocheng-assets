@@ -103,7 +103,7 @@ var final_03_array = [
 	]
 ];
 
-var combination_03_array = [
+var combination_03a_array = [
 	[
 		[50, 'ji'], [50, 'jia'], [50, 'jie'], [50, 'jiao'], [50, 'jiu'], [50, 'jian'], [50, 'jin'], [50, 'jiang'], [50, 'jing'], [50, 'jiong']
 	],
@@ -139,7 +139,7 @@ var combination_03_array = [
 	]
 ];
 
-var combination_04_array = [
+var combination_03b_array = [
 	[
 		[50, 'nü'], [50, 'nüe'], [50, '&nbsp;'], [50, '&nbsp;']
 	],
@@ -157,5 +157,68 @@ var combination_04_array = [
 	],
 	[
 		[50, 'yu'], [50, 'yue'], [50, 'yuan'], [50, 'yun']
+	]
+];
+
+var initial_04_array = [
+	[
+		[50, 'z'], [50, 'c'], [50, 's']
+	]
+];
+
+var final_04_array = [
+	[
+		[50, 'i'], [50, 'er'], [50, 'ua'], [50, 'uo'], [50, 'uai'], [50, 'ui'], [50, 'uan'], [50, 'un'], [50, 'uang'], [50, 'ueng']
+	]
+];
+
+var combination_04a_array = [
+	[
+		[50, 'za'], [50, 'ze'], [50, 'zi'], [50, 'zai'], [50, 'zei'], [50, 'zao'], [50, 'zou'], [50, 'zan'], [50, 'zen'], [50, 'zang'], [50, 'zeng'], [50, 'zong']
+	],
+	[
+		[50, 'ca'], [50, 'ce'], [50, 'ci'], [50, 'cai'], [50, '&nbsp;'], [50, 'cao'], [50, 'cou'], [50, 'can'], [50, 'cen'], [50, 'cang'], [50, 'ceng'], [50, 'cong']
+	],
+	[
+		[50, 'sa'], [50, 'se'], [50, 'si'], [50, 'sai'], [50, '&nbsp;'], [50, 'sao'], [50, 'sou'], [50, 'san'], [50, 'sen'], [50, 'sang'], [50, 'seng'], [50, 'song']
+	]
+];
+
+var combination_04b_array = [
+	[
+		[50, 'zu'], [50, 'zuo'], [50, 'zui'], [50, 'zuan'], [50, 'zun']
+	],
+	[
+		[50, 'cu'], [50, 'cuo'], [50, 'cui'], [50, 'cuan'], [50, 'cun']
+	],
+	[
+		[50, 'su'], [50, 'suo'], [50, 'sui'], [50, 'suan'], [50, 'sun']
+	]
+];
+
+var combination_04c_array = [
+	[
+		[50, '&nbsp;'], [50, 'duo'], [50, '&nbsp;'], [50, 'dui'], [50, 'duan'], [50, 'dun'], [50, '&nbsp;']
+	],
+	[
+		[50, '&nbsp;'], [50, 'tuo'], [50, '&nbsp;'], [50, 'tui'], [50, 'tuan'], [50, 'tun'], [50, '&nbsp;']
+	],
+	[
+		[50, '&nbsp;'], [50, 'nuo'], [50, '&nbsp;'], [50, '&nbsp;'], [50, 'nuan'], [50, '&nbsp;'], [50, '&nbsp;']
+	],
+	[
+		[50, '&nbsp;'], [50, 'luo'], [50, '&nbsp;'], [50, '&nbsp;'], [50, 'luan'], [50, 'lun'], [50, '&nbsp;']
+	],
+	[
+		[50, 'gua'], [50, 'guo'], [50, 'guai'], [50, 'gui'], [50, 'guan'], [50, 'gun'], [50, 'guang']
+	],
+	[
+		[50, 'kua'], [50, 'kuo'], [50, 'kuai'], [50, 'kui'], [50, 'kuan'], [50, 'kun'], [50, 'kuang']
+	],
+	[
+		[50, 'hua'], [50, 'huo'], [50, 'huai'], [50, 'hui'], [50, 'huan'], [50, 'hun'], [50, 'huang']
+	],
+	[
+		[50, 'wa'], [50, 'wo'], [50, 'wai'], [50, 'wei'], [50, 'wan'], [50, 'wen'], [50, 'wang']
 	]
 ];
