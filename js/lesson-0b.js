@@ -222,3 +222,60 @@ var combination_04c_array = [
 		[50, 'wa'], [50, 'wo'], [50, 'wai'], [50, 'wei'], [50, 'wan'], [50, 'wen'], [50, 'wang']
 	]
 ];
+
+var initial_05_array = [
+	[
+		[50, 'zh'], [50, 'ch'], [50, 'sh'], [50, 'r']
+	]
+];
+
+var final_05_array = [
+	[
+		[50, 'i']
+	]
+];
+
+var combination_05a_array = [
+	[
+		[50, 'zha'], [50, 'zhe'], [50, 'zhi'], [50, 'zhai'], [50, 'zhei'], [50, 'zhao'], [50, 'zhou']
+	],
+	[
+		[50, 'cha'], [50, 'che'], [50, 'chi'], [50, 'chai'], [50, '&nbsp;'], [50, 'chao'], [50, 'chou']
+	],
+	[
+		[50, 'sha'], [50, 'she'], [50, 'shi'], [50, 'shai'], [50, 'shei'], [50, 'shao'], [50, 'shou']
+	],
+	[
+		[50, '&nbsp;'], [50, 're'], [50, 'ri'], [50, '&nbsp;'], [50, '&nbsp;'], [50, 'rao'], [50, 'rou']
+	]
+];
+
+var combination_05b_array = [
+	[
+		[50, 'zhan'], [50, 'zhen'], [50, 'zhang'], [50, 'zheng'], [50, 'zhong']
+	],
+	[
+		[50, 'chan'], [50, 'chen'], [50, 'chang'], [50, 'cheng'], [50, 'chong']
+	],
+	[
+		[50, 'shan'], [50, 'shen'], [50, 'shang'], [50, 'sheng'], [50, '&nbsp;']
+	],
+	[
+		[50, 'ran'], [50, 'ren'], [50, 'rang'], [50, 'reng'], [50, 'rong']
+	]
+];
+
+var combination_05c_array = [
+	[
+		[50, 'zhu'], [50, 'zhua'], [50, 'zhuo'], [50, 'zhuai'], [50, 'zhui'], [50, 'zhuan'], [50, 'zhun'], [50, 'zhuang']
+	],
+	[
+		[50, 'chu'], [50, 'chua'], [50, 'chuo'], [50, 'chuai'], [50, 'chui'], [50, 'chuan'], [50, 'chun'], [50, 'chuang']
+	],
+	[
+		[50, 'shu'], [50, 'shua'], [50, 'shuo'], [50, 'shuai'], [50, 'shui'], [50, 'shuan'], [50, 'shun'], [50, 'shuang']
+	],
+	[
+		[50, 'ru'], [50, 'rua'], [50, 'ruo'], [50, '&nbsp;'], [50, 'rui'], [50, 'ruan'], [50, 'run'], [50, '&nbsp;']
+	]
+];
