@@ -168,9 +168,6 @@ var lyric_02_array = [
 		[300, "烛短遗憾长故人自难忘"], ["minus-320", "zhú duǎn yíhàn cháng gùrén zì nán wàng"]
 	],
 	[
-		[300, "..."], ["minus-320", "..."]
-	],
-	[
 		[300, "你爱着谁心徒留几道伤"], ["minus-320", "nǐ ài zhe shuí xīn tú liú jǐ dào shāng"]
 	],
 	[
@@ -181,6 +178,9 @@ var lyric_02_array = [
 	],
 	[
 		[300, "我爱不悔可孤影难成双"], ["minus-320", "wǒ ài bù huǐ kě gū yǐng nán chéngshuāng"]
+	],
+	[
+		[300, "..."], ["minus-320", "..."]
 	],
 	[
 		[300, "心多憔悴爱付与东流的水"], ["minus-320", "xīn duō qiáocuì ài fùyǔ dōngliú de shuǐ"]
