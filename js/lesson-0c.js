@@ -23,3 +23,14 @@ var er_tone_array = [
 	"Khi /er/ đứng sau một chữ khác thì phát âm là \"r\" vào sau phần đã có. Về chữ viết thì thêm chữ <span class=\"chinese\">“儿”</span> vào sau chữ gốc (có lúc được lược bỏ).",
 	"Ví dụ: <span class=\"chinese\"><br />画 儿 &rarr; huà ér &rarr; huàr. <br />哪 儿 &rarr; nǎ ér &rarr; nǎr. <br />玩 &rarr; wán ér &rarr; wánr.</span>"
 ];
+
+var yi_transform_array = [
+	"Trong phát âm tiếng Trung, <span class=\"chinese\">“一” /yī/</span> dùng đơn độc hay dùng liền nhau, đứng cuối từ/cụm từ hoặc đứng giữa số từ, thanh điệu không đổi, đều đọc đúng thanh 1. Ví dụ: <span class=\"chinese\"><br />一 &rarr; yī. <br/>一 一介绍 &rarr; yīyī jièshào. <br/>第一 &rarr; dìyī. <br/>一百一 十 一 &rarr; yībǎi yī shí yī.</span>",
+	"Khi <span class=\"chinese\">“一” /yī/</span> đứng trước thanh 1, thanh 2, thanh 3 đọc thành thanh 4. Ví dụ: <span class=\"chinese\"><br/> 一 天 &rarr; yītiān &rarr; yìtiān. <br/>一 年 &rarr; yī nián &rarr; yì nián. <br/>一 本 &rarr; yī běn &rarr; yì běn.</span>",
+	"Khi <span class=\"chinese\">“一” /yī/</span> đứng trước thanh 4 thì đọc thành thanh 2.<span class=\"chinese\"><br/>一样 &rarr; yīyàng &rarr; yíyàng. <br/>一共 &rarr; yīgòn &rarr; yígòn.</span>"
+];
+
+var bu_transform_array = [
+	"Khi <span class=\"chinese\">“不”</span> dùng đơn độc hay dùng đứng trước thanh 1, thanh 2, thanh 3 thì thanh điệu không thay đổi, đều đọc thanh 4. Ví dụ: <span class=\"chinese\"><br/>不 &rarr; bù. <br/>不多 &rarr; bù duò. <br/>不来 &rarr; bù lái. <br/>不好 &rarr; bù hǎo.</span>",
+	"Khi <span class=\"chinese\">“不”</span> đứng trước thanh 4 thì đọc thành thanh 2. Ví dụ: <span class=\"chinese\"><br/>不对 &rarr; bù duì &rarr; bú duì. <br/>不去 &rarr; bù qù &rarr; bú qù.</span>"
+];
