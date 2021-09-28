@@ -130,7 +130,7 @@ var lyric_01_array = [
 	]
 ];
 
-var lyric_01_array = [
+var lyric_02_array = [
 	[
 		[300, "只叹她回眸秋水被隐去"], ["minus-320", "zhǐ tàn tā huímóu qiūshuǐ bèi yǐn qù"]
 	],
