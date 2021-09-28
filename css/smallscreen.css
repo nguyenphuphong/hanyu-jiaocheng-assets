@@ -166,6 +166,11 @@ hr {
 	width: 100%;
 }
 
+.col-minus-320 {
+	float: left;
+	width: 100%;
+}
+
 .margin-left-10 {
 	margin-left: 10px;
 }
