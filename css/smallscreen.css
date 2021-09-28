@@ -103,6 +103,10 @@ hr {
 	font-size: 15px;
 }
 
+.chinese {
+	font-family: stsong;
+}
+
 .title {
     font-size: 40px;
     height: 60px;

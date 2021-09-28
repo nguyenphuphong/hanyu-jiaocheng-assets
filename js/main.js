@@ -59,3 +59,14 @@ function build_row_block(row_array, target_div_id) {
 	var target_div = document.getElementById(target_div_id);
 	target_div.innerHTML = build_string;
 }
+
+function build_list_block(item_array, target_list_id) {
+	var build_string = "";
+	
+	for (var i = 0; i < item_array.length; i++) {
+		build_string += "<li>" + item_array[i] + "</li>";
+	}
+	
+	var target_div = document.getElementById(target_list_id);
+	target_div.innerHTML = build_string;
+}

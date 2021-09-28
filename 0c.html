@@ -46,14 +46,22 @@
 <div id="content">
 	<div class="title">声调</div>
 	
+	<h3>声调</h3>
+	
 	<audio controls>
         <source src="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/audio/1c.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 	
-	<h3>声调</h3>
 	<div id="tone"></div>
 	<script>build_row_block(tone_array, "tone");</script>
+	
+	<h3>变调</h3>
+	<div class="vietnamese">
+		<h4>Biến đổi thanh điệu của thanh 3</h4>
+		<ul id="tone-3-transform"></ul>
+		<script>build_list_block(tone_3_transform_array, "tone-3-transform");</script>
+	</div>
 </div>
 
 <div style="clear: both;" />
