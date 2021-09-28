@@ -162,7 +162,7 @@ var lyric_02_array = [
 		[300, "我锁着眉最是相思断人肠"], ["minus-320", "wǒ suǒ zhe méi zuì shì xiāngsī duàn rén cháng"]
 	],
 	[
-		[300, "劳燕分飞寂寥的夜里泪两行"], ["minus-320", "láoyànfēnfēi jìliáo de yè li lèi liǎng xíng"]
+		[300, "劳燕分飞寂寥的夜里泪两行"], ["minus-320", "láoyànfēnfēi jìliáo de yè li lèi liǎng háng"]
 	],
 	[
 		[300, "烛短遗憾长故人自难忘"], ["minus-320", "zhú duǎn yíhàn cháng gùrén zì nán wàng"]
@@ -201,7 +201,10 @@ var lyric_02_array = [
 		[300, "我锁着眉最是相思断人肠"], ["minus-320", "wǒ suǒ zhe méi zuì shì xiāngsī duàn rén cháng"]
 	],
 	[
-		[300, "劳燕分飞寂寥的夜里泪两行"], ["minus-320", "láoyànfēnfēi jìliáo de yè li lèi liǎng xíng"]
+		[300, "劳燕分飞寂寥的夜里泪两行"], ["minus-320", "láoyànfēnfēi jìliáo de yè li lèi liǎng háng"]
+	],
+	[
+		[300, "烛短遗憾长故人自难忘"], ["minus-320", "zhú duǎn yíhàn cháng gùrén zì nán wàng"]
 	],
 	[
 		[300, "你爱着谁心徒留几道伤"], ["minus-320", "nǐ ài zhe shuí xīn tú liú jǐ dào shāng"]
@@ -222,7 +225,7 @@ var lyric_02_array = [
 		[300, "我锁着眉最是相思断人肠"], ["minus-320", "wǒ suǒ zhe méi zuì shì xiāngsī duàn rén cháng"]
 	],
 	[
-		[300, "劳燕分飞寂寥的夜里泪两行"], ["minus-320", "láoyànfēnfēi jìliáo de yè li lèi liǎng xíng"]
+		[300, "劳燕分飞寂寥的夜里泪两行"], ["minus-320", "láoyànfēnfēi jìliáo de yè li lèi liǎng háng"]
 	],
 	[
 		[300, "烛短遗憾长故人自难忘"], ["minus-320", "zhú duǎn yíhàn cháng gùrén zì nán wàng"]
