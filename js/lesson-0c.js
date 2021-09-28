@@ -18,3 +18,8 @@ var tone_3_transform_array = [
 	"Khi ba âm tiết cùng thanh 3 đứng cạnh nhau, âm tiết thứ 2 sẽ đọc thành thanh 2, hoặc cả hai âm tiết đầu đều đọc thành thanh 2. Ví dụ: <span class=\"chinese\"><br />我很好 &rarr; wǒ hěn hǎo &rarr; wǒ hén hǎo. <br />展览馆 &rarr; zhǎn lǎn guǎn &rarr; zhán lán guǎn.</span>",
 	"Khi bốn âm tiết cùng thanh 3 đứng cạnh nhau, âm tiết thứ nhất và âm tiết thứ 3 sẽ đọc thành thanh 2. Ví dụ: <span class=\"chinese\"><br/>我也很好 &rarr; wǒ yě hěn hǎo &rarr; wó yě hén hǎo.</span>"
 ];
+
+var er_tone_array = [
+	"Khi /er/ đứng sau một chữ khác thì phát âm là \"r\" vào sau phần đã có. Về chữ viết thì thêm chữ <span class=\"chinese\">“儿”</span> vào sau chữ gốc (có lúc được lược bỏ).",
+	"Ví dụ: <span class=\"chinese\"><br />画 儿 &rarr; huà ér &rarr; huàr. <br />哪 儿 &rarr; nǎ ér &rarr; nǎr. <br />玩 &rarr; wán ér &rarr; wánr.</span>"
+];
