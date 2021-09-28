@@ -155,3 +155,12 @@ hr {
 	float: left;
 	width: 100px;
 }
+
+.col-300 {
+	float: left;
+	width: 300px;
+}
+
+.margin-left-10 {
+	margin-left: 10px;
+}
