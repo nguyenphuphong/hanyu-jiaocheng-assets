@@ -19,9 +19,9 @@ var tone_3_transform_array = [
 	"Khi bốn âm tiết cùng thanh 3 đứng cạnh nhau, âm tiết thứ nhất và âm tiết thứ 3 sẽ đọc thành thanh 2. Ví dụ: <span class=\"chinese\"><br/>我也很好 &rarr; wǒ yě hěn hǎo &rarr; wó yě hén hǎo.</span>"
 ];
 
-var er_tone_array = [
-	"Khi /er/ đứng sau một chữ khác thì phát âm là \"r\" vào sau phần đã có. Về chữ viết thì thêm chữ <span class=\"chinese\">“儿”</span> vào sau chữ gốc (có lúc được lược bỏ).",
-	"Ví dụ: <span class=\"chinese\"><br />画 儿 &rarr; huà ér &rarr; huàr. <br />哪 儿 &rarr; nǎ ér &rarr; nǎr. <br />玩 &rarr; wán ér &rarr; wánr.</span>"
+var er_transform_array = [
+	"Khi âm /er/ là chữ không kết hợp thì phát âm bình thường. Ví dụ: <span class=\"chinese\"><br />儿子 &rarr; ér zi. <br/>耳机 &rarr; ěr jī. <br/>二十 &rarr; èr shí. <br/>二百 &rarr; èr bǎi</span>",
+	"Khi /er/ là âm kết hợp của từ thì phát âm là \"r\" vào sau phần đã có. Về chữ viết thì thêm chữ <span class=\"chinese\">“儿”</span> vào sau chữ gốc (có lúc được lược bỏ). Ví dụ: <span class=\"chinese\"><br />画 儿 &rarr; huà ér &rarr; huàr. <br />哪 儿 &rarr; nǎ ér &rarr; nǎr. <br />玩 &rarr; wán ér &rarr; wánr.</span>"
 ];
 
 var yi_transform_array = [
