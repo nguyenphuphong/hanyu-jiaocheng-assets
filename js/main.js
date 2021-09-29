@@ -70,3 +70,22 @@ function build_list_block(item_array, target_list_id) {
 	var target_div = document.getElementById(target_list_id);
 	target_div.innerHTML = build_string;
 }
+
+function building_listening_block() {
+	var build_string = "";
+	for (var i = 0; i < listening_array.length; i++) {
+		var speech = listening_array[i];
+		
+		if (speech.length == 1) {
+			build_string += "<h4>" + speech[0] + "</h4>";
+			continue;
+		}
+
+		build_string += "<div class=\"row\">";
+		build_string += "<div class=\"col-400\">";
+		build_string += "<span class=\"width-80\">" + speech[0] + "</span>" + speech[1];
+		build_string += "</div>";
+		build_string += "<div class=\"col-minus-420\">" + speech[2] + "</div>";
+		build_string += "</div>";
+	}
+}

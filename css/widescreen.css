@@ -184,9 +184,23 @@ hr {
 	width: 350px;
 }
 
+.col-400 {
+	float: left;
+	width: 400px;
+}
+
 .col-minus-320 {
 	float: left;
 	width: calc(100% - 320px);
+}
+
+.col-minus-420 {
+	float: left;
+	width: calc(100% - 420px);
+}
+
+.width-80 {
+	width: 80px;
 }
 
 .margin-left-10 {
