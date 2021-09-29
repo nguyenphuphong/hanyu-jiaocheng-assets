@@ -201,6 +201,7 @@ hr {
 
 .width-80 {
 	width: 80px;
+	display: inline-block;
 }
 
 .margin-left-10 {
