@@ -128,11 +128,11 @@ function building_hanzi_block() {
 	var build_string = "";
 	
 	var hanzi = extract_hanzi_from_vocabulary_array();
+	build_string += "<div class=\"row\">";
 	for (var i = 0; i < hanzi.length; i++) {
-		build_string += "<div class=\"row\">";
 		build_string += "<div class=\"hanzi-square\">" + hanzi[i] + "</div>";
-		build_string += "</div>";
 	}
+	build_string += "</div>";
 	
 	var target_div = document.getElementById("hanzi");
 	target_div.innerHTML = build_string;

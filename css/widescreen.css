@@ -210,9 +210,10 @@ hr {
 
 .hanzi-square {
 	font-family: pinyin;
-	font-size: 35px;
+	font-size: 30px;
 	float: left;
 	height: 50px;
 	width: 50px;
 	margin-right: 5px;
+	margin-bottom: 5px;
 }
