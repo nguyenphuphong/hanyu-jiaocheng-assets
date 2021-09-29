@@ -148,32 +148,32 @@ hr {
 
 .col-50 {
 	float: left;
-	width: 50px;
+	margin-right: 20px;
 }
 
 .col-75 {
 	float: left;
-	width: 75px;
+	margin-right: 20px;
 }
 
 .col-100 {
 	float: left;
-	width: 100px;
+	margin-right: 20px;
 }
 
 .col-150 {
 	float: left;
-	width: 150px;
+	margin-right: 20px;
 }
 
 .col-200 {
 	float: left;
-	width: 200px;
+	margin-right: 20px;
 }
 
 .col-300 {
 	float: left;
-	width: 300px;
+	margin-right: 20px;
 }
 
 .col-350 {
