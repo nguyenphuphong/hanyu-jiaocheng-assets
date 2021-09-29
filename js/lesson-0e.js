@@ -12,7 +12,7 @@ var abbreviation_array = [
 		["30 none-display-at-smallscreen", "&nbsp;"], [75, "离合词"], [150, "líhécí"], ["75 none-display-at-smallscreen", "&nbsp;"], ["200 vietnamese", "động từ ly hợp"]
 	],
 	[
-		[30, "4."], [75, "形容词"], [150, "xíngróngcí"], [75, "( 形 )"], ["200 vietnamese", "tính từ (hình dung từ)"]
+		[30, "4."], [75, "形容词"], [150, "xíngróngcí"], [75, "( 形 )"], ["200 vietnamese", "tính từ"]
 	],
 	[
 		[30, "5."], [75, "数词"], [150, "shùcí"], [75, "( 数 )"], ["200 vietnamese", "số từ"]
