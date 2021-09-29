@@ -189,3 +189,7 @@ hr {
 .margin-left-10 {
 	margin-left: 10px;
 }
+
+.none-display-at-smallscreen {
+	display: none;
+}

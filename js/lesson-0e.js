@@ -9,7 +9,7 @@ var abbreviation_array = [
 		[30, "3."], [75, "动词"], [150, "dòngcí"], [75, "( 动 )"], ["200 vietnamese", "động từ"]
 	],
 	[
-		[30, "&nbsp;"], [75, "离合词"], [150, "líhécí"], [75, "&nbsp;"], ["200 vietnamese", "động từ ly hợp"]
+		["30 none-display-at-smallscreen", "&nbsp;"], [75, "离合词"], [150, "líhécí"], ["75 none-display-at-smallscreen", "&nbsp;"], ["200 vietnamese", "động từ ly hợp"]
 	],
 	[
 		[30, "4."], [75, "形容词"], [150, "xíngróngcí"], [75, "( 形 )"], ["200 vietnamese", "tính từ (hình dung từ)"]
@@ -21,7 +21,7 @@ var abbreviation_array = [
 		[30, "6."], [75, "量词"], [150, "liàngcí"], [75, "( 量 )"], ["200 vietnamese", "lượng từ"]
 	],
 	[
-		[30, "&nbsp;"], [75, "数量词"], [150, "shùliàngcí"], [75, "( 数量 )"], ["200 vietnamese", "số lượng từ"]
+		["30 none-display-at-smallscreen", "&nbsp;"], [75, "数量词"], [150, "shùliàngcí"], [75, "( 数量 )"], ["200 vietnamese", "số lượng từ"]
 	],
 	[
 		[30, "7."], [75, "副词"], [150, "fùcí"], [75, "( 副 )"], ["200 vietnamese", "phó từ"]
@@ -36,10 +36,10 @@ var abbreviation_array = [
 		[30, "10."], [75, "助词"], [150, "zhùcí"], [75, "( 助 )"], ["200 vietnamese", "trợ từ"]
 	],
 	[
-		[30, "&nbsp;"], [75, "动泰助词"], [150, "dòngtài zhùcí"], [75, "&nbsp;"], ["200 vietnamese", "trợ từ động thái"]
+		["30 none-display-at-smallscreen", "&nbsp;"], [75, "动泰助词"], [150, "dòngtài zhùcí"], ["75 none-display-at-smallscreen", "&nbsp;"], ["200 vietnamese", "trợ từ động thái"]
 	],
 	[
-		[30, "&nbsp;"], [75, "结构助词"], [150, "jiégòu zhùcí"], [75, "&nbsp;"], ["200 vietnamese", "trợ từ kết cấu"]
+		["30 none-display-at-smallscreen", "&nbsp;"], [75, "结构助词"], [150, "jiégòu zhùcí"], ["75 none-display-at-smallscreen", "&nbsp;"], ["200 vietnamese", "trợ từ kết cấu"]
 	],
 	[
 		[30, "11."], [75, "叹词"], [150, "tàncí"], [75, "( 叹 )"], ["200 vietnamese", "thán từ"]
