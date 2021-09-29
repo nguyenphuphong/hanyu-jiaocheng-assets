@@ -57,3 +57,41 @@ var abbreviation_array = [
 		[30, "14."], [75, "词尾"], [150, "cíwěi"], [75, "尾"], ["200 vietnamese", "hậu tố"]
 	]
 ];
+
+var abbreviation_explaination_array = [
+	"<b>■ Danh từ</b> dùng để biểu thị người hoặc sự vật, thời gian địa điểm. Trong câu danh từ chủ yếu đảm nhận vai trò chủ ngữ. Danh từ được chia thành 4 loại sau: <ul><li>Danh từ chỉ người và vật:  <span class=\"chinese\">猫、狗</span></li><li>Danh từ chỉ thời gian: <span class=\"chinese\">春天、夏天</span></li><li>Danh từ chỉ địa điểm:  <span class=\"chinese\">学校</span></li><li>Danh từ chỉ phương vị: <span class=\"chinese\">上、下</span></li></ul>",
+	"<b>■ Đại từ</b> là các loại từ thay thế cho các từ ngữ trong câu. Gồm ba loại đại từ chính: đại từ nhân xưng, đại từ chỉ thị và đại từ nghi vấn. Đại từ gồm 3 loại:<ul><li>Đại từ chỉ người: <span class=\"chinese\">我们、他们</span></li><li>Đại từ nghi vấn: <span class=\"chinese\">谁、什么、哪</span></li><li>Đại từ chỉ sự: <span class=\"chinese\">这、那、这儿</span></li></ul>",
+	"<b>■ Động từ</b> là những từ chỉ động tác, hành vi, hoạt động tâm lý hoặc biểu thị sự tồn tại, thay đổi, biến mất, … Động từ gồm 7 loại:<ul><li>Động từ chỉ động tác, hành vi: <span class=\"chinese\">跳、坐</span></li><li>Động từ chỉ hoạt động tâm lý: <span class=\"chinese\">喜欢、讨厌</span></li><li>Động từ chỉ sự tồn tại, thay đổi, biến mất: <span class=\"chinese\">在、消亡</span></li><li>Động từ phán đoán: <span class=\"chinese\">是</span></li><li>Động từ năng nguyện: <span class=\"chinese\">能、 会</span></li><li>Động từ xu hướng: <span class=\"chinese\">下来、进去</span></li><li>Động từ chỉ sự thêm vào: <span class=\"chinese\">进行、加以</span></li></ul>",
+	"<b>■ Tính từ</b> Tính từ là những từ biểu thị trạng thái, tính chất của người và sự vật hoặc mô tả trạng thái của hành vi hay động tác. Tính từ gồm 2 loại lớn:<ul><li>Tính từ chỉ tính chất: <span class=\"chinese\">酸、甜、苦、辣</span></li><li>Tính từ chỉ trạng thái: <span class=\"chinese\">火红、水江江</span></li></ul>"
+];
+
+//<span class=\"chinese\"></span>
+/*
+	<ul>
+		<li>Danh từ chỉ người và vật:  <span class=\"chinese\">猫、狗</span></li>
+		<li>Danh từ chỉ thời gian: <span class=\"chinese\">春天、夏天</span></li>
+		<li>Danh từ chỉ địa điểm:  <span class=\"chinese\">学校</span></li>
+		<li>Danh từ chỉ phương vị: <span class=\"chinese\">上、下</span></li>
+	</ul>
+	
+	<ul>
+		<li>Đại từ chỉ người: <span class=\"chinese\">我们、他们</span></li>
+		<li>Đại từ nghi vấn: <span class=\"chinese\">谁、什么、哪</span></li>
+		<li>Đại từ chỉ sự: <span class=\"chinese\">这、那、这儿</span></li>
+	</ul>
+	
+	<ul>
+		<li>Động từ chỉ động tác, hành vi: <span class=\"chinese\">跳、坐</span></li>
+		<li>Động từ chỉ hoạt động tâm lý: <span class=\"chinese\">喜欢、讨厌</span></li>
+		<li>Động từ chỉ sự tồn tại, thay đổi, biến mất: <span class=\"chinese\">在、消亡</span></li>
+		<li>Động từ phán đoán: <span class=\"chinese\">是</span></li>
+		<li>Động từ năng nguyện: <span class=\"chinese\">能、 会</span></li>
+		<li>Động từ xu hướng: <span class=\"chinese\">下来、进去</span></li>
+		<li>Động từ chỉ sự thêm vào: <span class=\"chinese\">进行、加以</span></li>
+	</ul>
+	
+	<ul>
+		<li>Tính từ chỉ tính chất: <span class=\"chinese\">酸、甜、苦、辣</span></li>
+		<li>Tính từ chỉ trạng thái: <span class=\"chinese\">火红、水江江</span></li>
+	</ul>
+*/
