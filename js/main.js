@@ -88,4 +88,7 @@ function building_listening_block() {
 		build_string += "<div class=\"col-minus-420\">" + speech[2] + "</div>";
 		build_string += "</div>";
 	}
+	
+	var target_div = document.getElementById("listening");
+	target_div.innerHTML = build_string;
 }
