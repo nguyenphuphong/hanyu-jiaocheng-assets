@@ -8,7 +8,7 @@
 	<link rel="stylesheet" media="screen and (min-width: 900px)" href="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/css/widescreen.css">
 	<link rel="stylesheet" media="screen and (max-width: 899px)" href="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/css/smallscreen.css">
 	
-	<script src="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/js/lesson-xx.js"></script>
+	<script src="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/js/lesson-0e.js"></script>
 	<script src="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/js/lesson-navigator.js"></script>
 	<script src="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/js/main.js"></script>
 
@@ -37,14 +37,17 @@
 
 	<div id="nav-content">
 		<ul id="nav-content-list"></ul>
-		<script>build_lesson_navigation(-1);</script>
+		<script>build_lesson_navigation(4);</script>
 		
 		<hr class="none-display-at-widescreen" />
 	</div>
 </div>
 
 <div id="content">
-	<div class="title">xx</div>
+	<div class="title">汉语词类简称表</div>
+	
+	<div id="abbreviations"></div>
+	<script>build_row_block(abbreviation_array, "abbreviations");</script>
 </div>
 
 <div style="clear: both;" />

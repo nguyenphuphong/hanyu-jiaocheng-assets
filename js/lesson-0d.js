@@ -1,6 +1,6 @@
 var lyric_01_array = [
 	[
-		[300, "哪怕事事都大度宽容"], ["minus-320", "nǎpà shì shì dū dà dù kuānróng"]
+		[300, "哪怕事事都大度宽容"], ["minus-320", "nǎpà shì shì dōu dà dù kuānróng"]
 	],
 	[
 		[300, "伤害又何曾停止"], ["minus-320", "shānghài yòu hécéng tíngzhǐ"]
@@ -51,7 +51,7 @@ var lyric_01_array = [
 		[300, "..."], ["minus-320", "..."]
 	],
 	[
-		[300, "哪怕事事都大度宽容"], ["minus-320", "nǎpà shì shì dū dà dù kuānróng"]
+		[300, "哪怕事事都大度宽容"], ["minus-320", "nǎpà shì shì dōu dà dù kuānróng"]
 	],
 	[
 		[300, "伤害又何曾停止"], ["minus-320", "shānghài yòu hécéng tíngzhǐ"]
