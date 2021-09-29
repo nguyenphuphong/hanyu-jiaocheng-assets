@@ -116,7 +116,7 @@ function building_vocabulary_block() {
 			build_string += "<div class=\"col-100 none-display-at-smallscreen\">&nbsp;</div>";
 		}
 		build_string += "<div class=\"col-150\">" + pinyin + "</div>";
-		build_string += "<div>" + meaning + "</div>";
+		build_string += "<div class=\"vietnamese\">" + meaning + "</div>";
 		build_string += "</div>";
 	}
 
