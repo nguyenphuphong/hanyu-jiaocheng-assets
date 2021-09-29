@@ -99,10 +99,12 @@ hr {
 
 .vietnamese {
 	font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+	font-size: 16px;
 }
 
 .chinese {
 	font-family: stsong;
+	font-size: 20px;
 }
 
 .title {
