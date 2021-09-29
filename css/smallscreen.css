@@ -75,7 +75,7 @@
 }
 
 @font-face {
-	font-family: pinyinfont;
+	font-family: pinyin;
 	src: url(https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/font/pinyinfont.ttf);
 }
 
@@ -206,4 +206,18 @@ hr {
 
 .none-display-at-smallscreen {
 	display: none;
+}
+
+.col-free-for-smallscreen {
+	float: left;
+	width: 100%;
+}
+
+.hanzi-square {
+	font-family: pinyin;
+	font-size: 35px;
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin-right: 5px;
 }

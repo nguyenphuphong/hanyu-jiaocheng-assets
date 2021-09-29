@@ -116,10 +116,39 @@ function building_vocabulary_block() {
 			build_string += "<div class=\"col-100 none-display-at-smallscreen\">&nbsp;</div>";
 		}
 		build_string += "<div class=\"col-150\">" + pinyin + "</div>";
-		build_string += "<div class=\"vietnamese\">" + meaning + "</div>";
+		build_string += "<div class=\"col-free-for-smallscreen vietnamese\">" + meaning + "</div>";
 		build_string += "</div>";
 	}
 
 	var target_div = document.getElementById("vocabulary");
 	target_div.innerHTML = build_string;
+}
+
+function building_hanzi_block() {
+	var build_string = "";
+	
+	var hanzi = extract_hanzi_from_vocabulary_array();
+	for (var i = 0; i < hanzi.length; i++) {
+		build_string += "<div class=\"row\">";
+		build_string += "<div class=\"hanzi-square\">" + hanzi[i] + "</div>";
+		build_string += "</div>";
+	}
+	
+	var target_div = document.getElementById("hanzi");
+	target_div.innerHTML = build_string;
+}
+
+function extract_hanzi_from_vocabulary_array() {
+	var hanzi = [];
+	for (var i = 0; i < vocabulary_array.length; i++) {
+		var word = vocabulary_array[i][1].trim();
+		for (var j = 0; j < word.length; j++) {
+			var ch = word.charAt(j).trim();
+			if (ch != '(' && ch != ')' && ch != '（' && ch != '）' && ch != '／' && ch != ''
+					&& hanzi.includes(ch) == false) {
+				hanzi.push(ch);
+			}
+		}
+	}
+	return hanzi;
 }
