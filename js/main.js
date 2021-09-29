@@ -83,12 +83,43 @@ function building_listening_block() {
 
 		build_string += "<div class=\"row\">";
 		build_string += "<div class=\"col-400\">";
-		build_string += "<span class=\"width-80\">" + speech[0] + "</span>" + speech[1];
+		build_string += "<span class=\"width-80\">" + speech[0] + ": </span>" + speech[1];
 		build_string += "</div>";
 		build_string += "<div class=\"col-minus-420\">" + speech[2] + "</div>";
 		build_string += "</div>";
 	}
 	
 	var target_div = document.getElementById("listening");
+	target_div.innerHTML = build_string;
+}
+
+function building_vocabulary_block() {
+	var build_string = "";
+	for (var i = 0; i < vocabulary_array.length; i++) {
+		var vocabulary = vocabulary_array[i];
+		var no = vocabulary[0];
+		var word = vocabulary[1];
+		var abbreviation = vocabulary[2];
+		var pinyin = vocabulary[3];
+		var meaning = vocabulary[4];
+
+		build_string += "<div class=\"row\">";
+		if (no != '') {
+			build_string += "<div class=\"col-30\">" + no + "</div>";
+		} else {
+			build_string += "<div class=\"col-30 none-display-at-smallscreen\">&nbsp;</div>";
+		}
+		build_string += "<div class=\"col-150\">" + word + "</div>";
+		if (abbreviation != '') {
+			build_string += "<div class=\"col-100\">（" + abbreviation + "）</div>";
+		} else {
+			build_string += "<div class=\"col-100 none-display-at-smallscreen\">&nbsp;</div>";
+		}
+		build_string += "<div class=\"col-150\">" + pinyin + "</div>";
+		build_string += "<div>" + meaning + "</div>";
+		build_string += "</div>";
+	}
+
+	var target_div = document.getElementById("vocabulary");
 	target_div.innerHTML = build_string;
 }
