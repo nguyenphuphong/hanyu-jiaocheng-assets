@@ -161,6 +161,16 @@ hr {
 	width: 100px;
 }
 
+.col-150 {
+	float: left;
+	width: 150px;
+}
+
+.col-200 {
+	float: left;
+	width: 200px;
+}
+
 .col-300 {
 	float: left;
 	width: 300px;
