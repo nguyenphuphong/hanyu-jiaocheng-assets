@@ -210,15 +210,15 @@ hr {
 
 .col-free-for-smallscreen {
 	float: left;
-	width: 100%;
+	margin-right: 20px;
 }
 
 .hanzi-square {
 	font-family: pinyin;
-	font-size: 40px;
+	font-size: 50px;
 	float: left;
-	height: 60px;
-	width: 60px;
+	height: 70px;
+	width: 70px;
 	margin-right: 5px;
 	margin-bottom: 5px;
 }
