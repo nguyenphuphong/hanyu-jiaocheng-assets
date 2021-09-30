@@ -127,10 +127,12 @@ function building_vocabulary_block() {
 function building_name_block() {
 	var build_string = "";
 	for (var i = 0; i < name_array.length; i++) {
+		var name = name_array[i];
+		
 		build_string += "<div class=\"row\">";
 		build_string += "<div class=\"col-30\">" + (i + 1) + "</div>";
-		build_string += "<div class=\"col-150 chinese-pinyin\">" + name_array[0] + "</div>";
-		build_string += "<div class=\"col-300 vietnamese\">" + name_array[1] + "</div>";
+		build_string += "<div class=\"col-150 chinese-pinyin\">" + name[0] + "</div>";
+		build_string += "<div class=\"col-300 vietnamese\">" + name[1] + "</div>";
 		build_string += "</div>";
 	}
 
