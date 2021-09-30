@@ -104,18 +104,18 @@ function building_vocabulary_block() {
 
 		build_string += "<div class=\"row\">";
 		if (no != '') {
-			build_string += "<div class=\"col-30\">" + no + "</div>";
+			build_string += "<div class=\"col-30 none-display-at-smallscreen\">" + no + "</div>";
 		} else {
-			build_string += "<div class=\"col-30\">&nbsp;</div>";
+			build_string += "<div class=\"col-30 none-display-at-smallscreen\">&nbsp;</div>";
 		}
-		build_string += "<div class=\"col-150\">" + word + "</div>";
+		build_string += "<div class=\"col-150 chinese-pinyin-at-smallscreen\">" + word + "</div>";
 		if (abbreviation != '') {
 			build_string += "<div class=\"col-100\">（" + abbreviation + "）</div>";
 		} else {
 			build_string += "<div class=\"col-100 none-display-at-smallscreen\">&nbsp;</div>";
 		}
-		build_string += "<div class=\"col-150\">" + pinyin + "</div>";
-		build_string += "<div class=\"col-free-for-smallscreen margin-left-30-at-smallscreen inline-block-at-widescreen vietnamese\">" + meaning + "</div>";
+		build_string += "<div class=\"col-150 none-display-at-smallscreen\">" + pinyin + "</div>";
+		build_string += "<div class=\"col-300 inline-block-at-widescreen vietnamese\">" + meaning + "</div>";
 		build_string += "</div>";
 	}
 
