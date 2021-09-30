@@ -146,85 +146,71 @@ hr {
 .col-20 {
 	float: left;
 	width: 20px;
-	display: inline-block;
 }
 
 .col-30 {
 	float: left;
 	width: 30px;
-	display: inline-block;
 }
 
 .col-35 {
 	float: left;
 	width: 35px;
-	display: inline-block;
 }
 
 .col-40 {
 	float: left;
 	width: 40px;
-	display: inline-block;
 }
 
 .col-50 {
 	float: left;
 	width: 50px;
-	display: inline-block;
 }
 
 .col-75 {
 	float: left;
 	width: 75px;
-	display: inline-block;
 }
 
 .col-100 {
 	float: left;
 	width: 100px;
-	display: inline-block;
 }
 
 .col-150 {
 	float: left;
 	width: 150px;
-	display: inline-block;
 }
 
 .col-200 {
 	float: left;
 	width: 200px;
-	display: inline-block;
 }
 
 .col-300 {
 	float: left;
 	width: 300px;
-	display: inline-block;
 }
 
 .col-350 {
 	float: left;
 	width: 350px;
-	display: inline-block;
 }
 
 .col-400 {
 	float: left;
 	width: 400px;
-	display: inline-block;
 }
 
 .col-minus-320 {
 	float: left;
 	width: calc(100% - 320px);
-	display: inline-block;
 }
 
 .col-minus-420 {
 	float: left;
 	width: calc(100% - 420px);
-	display: inline-block;
 }
 
 .width-80 {
