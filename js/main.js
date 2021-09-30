@@ -124,7 +124,7 @@ function building_vocabulary_block() {
 	target_div.innerHTML = build_string;
 }
 
-function building_hanzi_block() {
+function building_name_block() {
 	var build_string = "";
 	for (var i = 0; i < name_array.length; i++) {
 		build_string += "<div class=\"row\">";
