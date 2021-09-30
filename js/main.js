@@ -85,7 +85,7 @@ function building_listening_block() {
 		build_string += "<div class=\"col-400\">";
 		build_string += "<span class=\"width-80 chinese-pinyin\">" + speech[0] + ": </span>" + speech[1];
 		build_string += "</div>";
-		build_string += "<div class=\"col-minus-420 margin-left-80-at-smallscreen\">" + speech[2] + "</div>";
+		build_string += "<div class=\"col-minus-420 margin-left-30-at-smallscreen\">" + speech[2] + "</div>";
 		build_string += "</div>";
 	}
 
