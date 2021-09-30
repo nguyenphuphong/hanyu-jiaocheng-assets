@@ -35,3 +35,7 @@ var vocabulary_array = [
     ['14.', '七', '数', 'qī', 'bảy'],
     ['15.', '九', '数', 'jiǔ', 'chín']
 ];
+
+var name_array = [
+	["北京", "Bắc Kinh"]
+];

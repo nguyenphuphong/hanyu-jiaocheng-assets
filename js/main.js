@@ -83,7 +83,7 @@ function building_listening_block() {
 
 		build_string += "<div class=\"row\">";
 		build_string += "<div class=\"col-400\">";
-		build_string += "<span class=\"width-80 chinese-pinyin\">" + speech[0] + ": </span>" + speech[1];
+		build_string += "<span class=\"width-80\">" + speech[0] + ": </span>" + speech[1];
 		build_string += "</div>";
 		build_string += "<div class=\"col-minus-420 margin-left-30-at-smallscreen\">" + speech[2] + "</div>";
 		build_string += "</div>";
@@ -121,6 +121,20 @@ function building_vocabulary_block() {
 	}
 
 	var target_div = document.getElementById("vocabulary");
+	target_div.innerHTML = build_string;
+}
+
+function building_hanzi_block() {
+	var build_string = "";
+	for (var i = 0; i < name_array.length; i++) {
+		build_string += "<div class=\"row\">";
+		build_string += "<div class=\"col-30\">" + (i + 1) + "</div>";
+		build_string += "<div class=\"col-150 chinese-pinyin\">" + name_array[0] + "</div>";
+		build_string += "<div class=\"col-300 vietnamese\">" + name_array[1] + "</div>";
+		build_string += "</div>";
+	}
+
+	var target_div = document.getElementById("name");
 	target_div.innerHTML = build_string;
 }
 
