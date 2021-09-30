@@ -110,7 +110,7 @@ function building_vocabulary_block() {
 		}
 		build_string += "<div class=\"col-150 chinese-pinyin-at-smallscreen\">" + word + "</div>";
 		if (abbreviation != '') {
-			build_string += "<div class=\"col-100\">（" + abbreviation + "）</div>";
+			build_string += "<div class=\"col-100 none-display-at-smallscreen\">（" + abbreviation + "）</div>";
 		} else {
 			build_string += "<div class=\"col-100 none-display-at-smallscreen\">&nbsp;</div>";
 		}
