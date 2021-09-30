@@ -82,9 +82,8 @@ function building_listening_block() {
 		}
 
 		build_string += "<div class=\"row\">";
-		build_string += "<div class=\"col-400\">";
-		build_string += "<span class=\"width-80\">" + speech[0] + ": </span>" + speech[1];
-		build_string += "</div>";
+		build_string += "<div class=\"col-80\">" + speech[0] + ": </div>";
+		build_string += "<div class=\"col-320\">" + speech[1] + "</div>";
 		build_string += "<div class=\"col-minus-420 margin-left-30-at-smallscreen\">" + speech[2] + "</div>";
 		build_string += "</div>";
 	}

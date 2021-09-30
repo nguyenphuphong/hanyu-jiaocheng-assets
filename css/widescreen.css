@@ -172,6 +172,11 @@ hr {
 	width: 75px;
 }
 
+.col-80 {
+	float: left;
+	width: 80px;
+}
+
 .col-100 {
 	float: left;
 	width: 100px;
@@ -190,6 +195,11 @@ hr {
 .col-300 {
 	float: left;
 	width: 300px;
+}
+
+.col-320 {
+	float: left;
+	width: 320px;
 }
 
 .col-350 {

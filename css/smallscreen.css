@@ -162,6 +162,11 @@ hr {
 	margin-right: 20px;
 }
 
+.col-80 {
+	float: left;
+	margin-right: 20px;
+}
+
 .col-100 {
 	float: left;
 	margin-right: 20px;
@@ -178,6 +183,11 @@ hr {
 }
 
 .col-300 {
+	float: left;
+	margin-right: 20px;
+}
+
+.col-320 {
 	float: left;
 	margin-right: 20px;
 }
