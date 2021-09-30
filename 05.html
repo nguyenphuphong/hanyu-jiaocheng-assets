@@ -8,7 +8,7 @@
 	<link rel="stylesheet" media="screen and (min-width: 900px)" href="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/css/widescreen.css">
 	<link rel="stylesheet" media="screen and (max-width: 899px)" href="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/css/smallscreen.css">
 	
-	<script src="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/js/lesson-0c.js"></script>
+	<script src="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/js/lesson-05.js"></script>
 	<script src="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/js/lesson-navigator.js"></script>
 	<script src="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/js/main.js"></script>
 
@@ -37,43 +37,47 @@
 
 	<div id="nav-content">
 		<ul id="nav-content-list"></ul>
-		<script>build_lesson_navigation(2);</script>
+		<script>build_lesson_navigation(9);</script>
 		
 		<hr class="none-display-at-widescreen" />
 	</div>
 </div>
 
 <div id="content" class="border-left">
-	<div class="title">声调</div>
-	
-	<h3>声调</h3>
+	<div class="title">课文</div>
 	
 	<audio controls>
-        <source src="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/audio/1c.mp3" type="audio/mpeg">
+        <source src="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/audio/1k.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 	
-	<div id="tone"></div>
-	<script>build_row_block(tone_array, "tone");</script>
+	<div id="listening"></div>
+	<script>building_listening_block();</script>
+
+	<br />
+
+	<div class="title">生词</div>
 	
-	<h3>变调</h3>
-	<div class="vietnamese">
-		<h4>Biến đổi thanh điệu của thanh 3</h4>
-		<ul id="tone-3-transform"></ul>
-		<script>build_list_block(tone_3_transform_array, "tone-3-transform");</script>
-		
-		<h4>Vần đuôi /er/ trong phát âm tiếng Trung</h4>
-		<ul id="er-transform"></ul>
-		<script>build_list_block(er_transform_array, "er-transform");</script>
-		
-		<h4>Sự biến đổi thanh điệu của <span class="chinese">“一" /yī/</span></h4>
-		<ul id="yi-transform"></ul>
-		<script>build_list_block(yi_transform_array, "yi-transform");</script>
-		
-		<h4>Sự biến đổi thanh điệu của <span class="chinese">“不”</span> trong phát âm tiếng Trung</h4>
-		<ul id="bu-transform"></ul>
-		<script>build_list_block(bu_transform_array, "bu-transform");</script>
-	</div>
+	<audio controls>
+        <source src="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/audio/1s.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+	
+	<div id="vocabulary"></div>
+	<script>building_vocabulary_block();</script>
+	
+	<br/>
+
+	<div class="title">专名</div>
+
+	<div id="name"></div>
+	<script>building_name_block();</script>
+
+	<br/>
+	
+	<div class="title">汉字</div>
+	<div id="hanzi"></div>
+	<script>building_hanzi_block();</script>
 </div>
 
 <div style="clear: both;" />
