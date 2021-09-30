@@ -65,7 +65,6 @@
     float: left;
     width: calc(100% - 330px);
 	padding: 10px 10px 10px 10px;
-	border-left: 1px solid black;
 }
 
 @font-face {
@@ -110,6 +109,14 @@ hr {
 .chinese-pinyin {
 	font-family: pinyin;
 	font-size: 20px;
+}
+
+.border-left {
+	border-left: 1px solid black;
+}
+
+.border-right {
+	border-right: 1px solid black;
 }
 
 .title {
