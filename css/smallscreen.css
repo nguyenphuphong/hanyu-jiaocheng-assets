@@ -251,3 +251,11 @@ hr {
 .margin-left-80-at-smallscreen {
 	margin-left: 80px;
 }
+
+.width-50p-at-smallscreen {
+	width: 50%;
+}
+
+.width-40p-at-smallscreen {
+	width: 40%;
+}
