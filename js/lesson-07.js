@@ -11,7 +11,7 @@ var listening_array = [
 	["玛丽", "我要一碗鸡蛋汤。你喝吗？", "Wǒ yào yī wǎn jīdàn tāng. Nǐ hē ma?"],
 	["张东", "不喝，我喝啤酒。", "Bù hē, wǒ hē píjiǔ."],
 	["玛丽", "这些是什么？", "Zhèxiē shì shénme?"],
-	["张东", "Zhè shì jiǎozi, zhè shì bāozi, nà shì miàntiáo.", "Zhèxiē shì shénme?"]
+	["张东", "这是饺子，这是包子，那是面条。", "Zhè shì jiǎozi, zhè shì bāozi, nà shì miàntiáo."]
 ];
 
 var vocabulary_array = [
