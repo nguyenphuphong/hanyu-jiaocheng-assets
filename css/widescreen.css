@@ -230,3 +230,7 @@ hr {
 	margin-right: 5px;
 	margin-bottom: 5px;
 }
+
+.inline-block-at-widescreen {
+	display: inline-block;
+}
