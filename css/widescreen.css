@@ -107,6 +107,11 @@ hr {
 	font-size: 20px;
 }
 
+.chinese-pinyin {
+	font-family: pinyin;
+	font-size: 20px;
+}
+
 .title {
     font-size: 40px;
     height: 60px;
