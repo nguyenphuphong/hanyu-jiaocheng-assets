@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>汉语教程</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" media="screen and (min-width: 900px)" href="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/css/widescreen.css">
+	<link rel="stylesheet" media="screen and (max-width: 899px)" href="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/css/smallscreen.css">
+	
+	<script src="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/js/lesson-08.js"></script>
+	<script src="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/js/lesson-navigator.js"></script>
+	<script src="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/js/main.js"></script>
+
+	<script>
+		window.onload = function () { 
+			setTimeout(function() {
+				var loader = document.getElementById("loader");
+				loader.remove();
+			}, 300);
+		}
+	</script>
+</head>
+<body>
+
+<div id="loader"></div>
+
+<div id="nav">
+	<div id="nav-header">
+		<div id="nav-left">
+			<a href="index.html">汉语教程</a>
+		</div>
+		<div id="nav-right" onclick="toogle_nav_display();">课</div>
+	</div>
+
+	<hr />
+
+	<div id="nav-content">
+		<ul id="nav-content-list"></ul>
+		<script>build_lesson_navigation(12);</script>
+		
+		<hr class="none-display-at-widescreen" />
+	</div>
+</div>
+
+<div id="content" class="border-left">
+	<div class="title">课文</div>
+	
+	<audio controls>
+        <source src="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/audio/8k.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+	
+	<div id="listening"></div>
+	<script>building_listening_block();</script>
+
+	<br />
+
+	<div class="title">生词</div>
+	
+	<audio controls>
+        <source src="https://nguyenphuphong.github.io/hanyu-jiaocheng-assets/audio/8s.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+	
+	<div id="vocabulary"></div>
+	<script>building_vocabulary_block();</script>
+
+	<br/>
+	
+	<div class="title">汉字</div>
+	<div id="hanzi"></div>
+	<script>building_hanzi_block();</script>
+</div>
+
+<div style="clear: both;" />
+
+</body>
+</html>
