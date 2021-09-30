@@ -189,7 +189,7 @@ hr {
 
 .col-320 {
 	float: left;
-	margin-right: 20px;
+	width: 100%;
 }
 
 .col-350 {

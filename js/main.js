@@ -82,9 +82,9 @@ function building_listening_block() {
 		}
 
 		build_string += "<div class=\"row\">";
-		build_string += "<div class=\"col-80\">" + speech[0] + ": </div>";
+		build_string += "<div class=\"col-80 none-display-at-smallscreen\">" + speech[0] + ": </div>";
 		build_string += "<div class=\"col-320\">" + speech[1] + "</div>";
-		build_string += "<div class=\"col-minus-420 margin-left-30-at-smallscreen\">" + speech[2] + "</div>";
+		build_string += "<div class=\"col-minus-420\">" + speech[2] + "</div>";
 		build_string += "</div>";
 	}
 
@@ -106,7 +106,7 @@ function building_vocabulary_block() {
 		if (no != '') {
 			build_string += "<div class=\"col-30\">" + no + "</div>";
 		} else {
-			build_string += "<div class=\"col-30 none-display-at-smallscreen\">&nbsp;</div>";
+			build_string += "<div class=\"col-30\">&nbsp;</div>";
 		}
 		build_string += "<div class=\"col-150\">" + word + "</div>";
 		if (abbreviation != '') {
