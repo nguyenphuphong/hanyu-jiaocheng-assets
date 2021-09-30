@@ -24,7 +24,7 @@ function build_lesson_navigation(page) {
 			build_string += "<li><a href=\"" + lesson_navigator_url + "\">" + lesson_navigator_title + "</a></li>";
 		}
 	}
-	
+
 	var nav_content_ul = document.getElementById("nav-content-list");
 	nav_content_ul.innerHTML = build_string;
 }
@@ -84,7 +84,7 @@ function building_listening_block() {
 		build_string += "<div class=\"row\">";
 		build_string += "<div class=\"col-80 none-display-at-smallscreen\">" + speech[0] + ": </div>";
 		build_string += "<div class=\"col-320\">" + speech[1] + "</div>";
-		build_string += "<div class=\"col-minus-420\">" + speech[2] + "</div>";
+		build_string += "<div class=\"col-minus-420 transform-lowercase\">" + speech[2] + "</div>";
 		build_string += "</div>";
 	}
 

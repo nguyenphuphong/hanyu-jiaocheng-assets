@@ -244,3 +244,7 @@ hr {
 .inline-block-at-widescreen {
 	display: inline-block;
 }
+
+.transform-lowercase {
+	text-transform: lowercase;
+}

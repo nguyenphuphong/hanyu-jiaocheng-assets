@@ -259,3 +259,7 @@ hr {
 .width-40p-at-smallscreen {
 	width: 40%;
 }
+
+.transform-lowercase {
+	text-transform: lowercase;
+}
