@@ -1,0 +1,43 @@
+var listening_array = [
+	["（一）你家有几口人"],
+	["（麦克和玛丽在看照片）"],
+	["麦克", "你家有几口人？", "Nǐ jiā yǒu jǐ kǒu rén?"],
+	["玛丽", "我家有五口人，爸爸，妈妈，哥哥，姐姐和我。", "Wǒjiā yǒu wǔ kǒu rén, bàba, māmā, gēgē, jiějiě hé wǒ."],
+	["麦克", "你有没有全家的照片？", "Nǐ yǒu méiyǒu quánjiā de zhàopiàn?"],
+	["玛丽", "有一张。你看，这是我们全家的照片。你有哥哥姐姐吗？", "Yǒuyī zhāng. Nǐ kàn, zhè shì wǒmen quánjiā de zhàopiàn. Nǐ yǒu gēgē jiějiě ma?"],
+	["麦克", "我没有哥哥，也没有姐姐，只有两个弟弟。", "Wǒ méiyǒu gēgē, yě méiyǒu jiějiě, zhǐyǒu liǎng gè dìdì."],
+	["玛丽", "你爸爸，妈妈做什么工作？", "Nǐ bàba, māmā zuò shénme gōngzuò?"],
+	["麦克", "我妈妈是大夫，在医院工作，爸爸是一家公司的经理。", "Wǒ māmā shì dàfū, zài yīyuàn gōngzuò, bàba shì yījiā gōngsī de jīnglǐ."],
+	["玛丽", "我妈妈在商店工作，爸爸是律师。", "Wǒ māmā zài shāngdiàn gōngzuò, bàba shì lǜshī."],
+	["（二）你们公司有多少职员"],
+	["（王老师和关经理在谈话）"],
+	["王老师", "你们是一家什么公司？", "Nǐmen shì yījiā shi me gōngsī?"],
+	["关经理", "是一家外贸公司。", "Shì yījiā wàimào gōngsī."],
+	["王老师", "你们是一家什么公司？", "Nǐmen shì yījiā shi me gōngsī?"],
+	["关经理", "是一家外贸公司。", "Shì yījiā wàimào gōngsī."],
+	["王老师", "是一家大公司吗？", "Shì yījiā dà gōngsī ma?"],
+	["关经理", "不大，是一家比较小的公司。", "Bù dà, shì yījiā bǐjiào xiǎo de gōngsī."],
+	["王老师", "有多少职员？", "Yǒu duōshǎo zhíyuán?"],
+	["关经理", "大概有一百多个职员。", "Dàgài yǒu yībǎi duō gè zhíyuán."],
+	["王老师", "都是中国职员吗？", "Dōu shì zhōngguó zhíyuán ma?"],
+	["关经理", "不都是中国职员，也有外国职员。", "Bù dōu shì zhōngguó zhíyuán, yěyǒu wàiguó zhíyuán."]
+];
+
+var vocabulary_array = [
+	['1.', '全', '形, 副', 'quán', 'toàn bộ, tất cả, hoàn toàn'],
+    ['2.', '照片', '名', 'zhàopiàn', 'bức ảnh'],
+    ['3.', '看', '动', 'kàn', 'nhìn'],
+    ['4.', '姐姐', '名', 'jiějiě', 'chị gái'],
+    ['5.', '只', '副', 'zhǐ', 'chỉ (một)'],
+    ['6.', '做', '动', 'zuò', 'làm'],
+    ['7.', '大夫', '名', 'dàfū', 'bác sĩ'],
+    ['8.', '医院', '名', 'yīyuàn', 'bệnh viện'],
+    ['9.', '公司', '名', 'gōngsī', 'công ty'],
+    ['10.', '商店', '名', 'shāngdiàn', 'cửa hàng'],
+    ['11.', '律师', '名', 'lǜshī', 'luật sư'],
+    ['12.', '外贸', '名', 'wàimào', 'ngoại thương'],
+    ['13.', '小', '形', 'xiǎo', 'nhỏ'],
+    ['14.', '大概', '副', 'dàgài', 'khoảng'],
+    ['15.', '多', '数', 'duō', 'hơn'],
+    ['16.', '外国', '名', 'wàiguó', 'nước ngoài']
+];
