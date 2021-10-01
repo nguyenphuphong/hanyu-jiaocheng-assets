@@ -18,7 +18,7 @@ function build_lesson_navigation(page) {
 		var lesson_navigator_title = lesson_navigator_array[i][0];
 		var lesson_navigator_url = lesson_navigator_array[i][1];
 		
-		if (page == i) {
+		if (page == lesson_navigator_array[i][2]) {
 			build_string += "<li><a class=\"active\" href=\"" + lesson_navigator_url + "\">" + lesson_navigator_title + "</a></li>";
 		} else {
 			build_string += "<li><a href=\"" + lesson_navigator_url + "\">" + lesson_navigator_title + "</a></li>";
