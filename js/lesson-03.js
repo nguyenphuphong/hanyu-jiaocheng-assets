@@ -37,5 +37,5 @@ var vocabulary_array = [
 ];
 
 var name_array = [
-	["北京", "Bắc Kinh"]
+	["北京", "běijīng", "Bắc Kinh"]
 ];

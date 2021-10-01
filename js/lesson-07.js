@@ -41,5 +41,5 @@ var vocabulary_array = [
 ];
 
 var name_array = [
-	["玛丽", "Mary"]
+	["玛丽", "mǎlì", "Mary"]
 ];

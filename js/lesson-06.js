@@ -67,6 +67,6 @@ var vocabulary_array = [
 ];
 
 var name_array = [
-	["麦克", "Mike"],
-	["张东", "Trương Đông"]
+	["麦克", "màikè", "Mike"],
+	["张东", "zhāng dōng", "Trương Đông"]
 ];

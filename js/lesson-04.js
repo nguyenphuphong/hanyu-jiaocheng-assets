@@ -39,5 +39,5 @@ var vocabulary_array = [
 ];
 
 var name_array = [
-	["天安门", "Thiên An Môn"]
+	["天安门", "tiān'ānmén", "Thiên An Môn"]
 ];

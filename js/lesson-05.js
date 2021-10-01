@@ -30,5 +30,5 @@ var vocabulary_array = [
 ];
 
 var name_array = [
-	["王", "Họ Vương"]
+	["王", "wáng", "Họ Vương"]
 ];

@@ -130,8 +130,9 @@ function building_name_block() {
 		
 		build_string += "<div class=\"row\">";
 		build_string += "<div class=\"col-30 none-display-at-smallscreen\">" + (i + 1) + ". </div>";
-		build_string += "<div class=\"col-150 width-40p-at-smallscreen chinese-pinyin\">" + name[0] + "</div>";
-		build_string += "<div class=\"col-300 width-40p-at-smallscreen vietnamese\">" + name[1] + "</div>";
+		build_string += "<div class=\"col-150 width-40p-at-smallscreen chinese-pinyin-at-smallscreen\">" + name[0] + "</div>";
+		build_string += "<div class=\"col-150 none-display-at-smallscreen width-40p-at-smallscreen\">" + name[0] + "</div>";
+		build_string += "<div class=\"col-300 width-40p-at-smallscreen vietnamese\">" + name[2] + "</div>";
 		build_string += "</div>";
 	}
 
