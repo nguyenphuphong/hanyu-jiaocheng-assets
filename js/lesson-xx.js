@@ -7,5 +7,5 @@ var vocabulary_array = [
 ];
 
 var name_array = [
-	["天安门", "Thiên An Môn"]
+	["李昌浩", "lǐ chānghào", "Lee Chang Ho"]
 ];
