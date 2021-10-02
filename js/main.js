@@ -160,7 +160,7 @@ function extract_hanzi_from_vocabulary_array() {
 		var word = vocabulary_array[i][1].trim();
 		for (var j = 0; j < word.length; j++) {
 			var ch = word.charAt(j).trim();
-			if (ch != '(' && ch != ')' && ch != '（' && ch != '）' && ch != '／' && ch != ''
+			if (ch != '(' && ch != ')' && ch != '（' && ch != '）' && ch != '／' && ch != '' && ch != '…'
 					&& hanzi.includes(ch) == false) {
 				hanzi.push(ch);
 			}
