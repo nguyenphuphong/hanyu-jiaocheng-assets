@@ -269,3 +269,7 @@ hr {
 .transform-lowercase {
 	text-transform: lowercase;
 }
+
+.font-size-18pt-at-widescreen {
+	font-size: 18px;
+}
