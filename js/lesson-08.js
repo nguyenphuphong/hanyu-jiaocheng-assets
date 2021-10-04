@@ -1,18 +1,18 @@
 var listening_array = [
 	["（ 买水果 ）"],
-	["A", "你买什么？", "Nǐ mǎi shénme?"],
-	["B", "我买水果。苹果一斤多少钱？", "Wǒ mǎi shuǐguǒ. Píngguǒ yī jīn duōshǎo qián?"],
-	["A", "三块。", "Sān kuài."],
-	["B", "三块？太贵了。两块五吧。", "Sān kuài? Tài guìle. Liǎng kuài wǔ ba."],
-	["A", "你要几斤？", "Nǐ yào jǐ jīn?"],
-	["B", "我买五斤。", "Wǒ mǎi wǔ jīn."],
-	["A", "还要别的吗？", "Hái yào bié de ma?"],
-	["B", "橘子怎么卖？", "Júzi zěnme mài?"],
-	["A", "两块。", "Liǎng kuài."],
-	["B", "要两斤。一共多少钱？", "Yào liǎng jīn. Yīgòng duōshǎo qián?"],
-	["A", "一共十六块五（毛）。你给十六块吧。", "Yīgòng shíliù kuài wǔ (máo). Nǐ gěi shíliù kuài ba."],
-	["B", "给你钱。", "Gěi nǐ qián."],
-	["A", "这是五十，找您三十四块。", "Zhè shì wǔshí, zhǎo nín sānshísì kuài."]
+	["A", "你买什么？", "Nǐ mǎi shénme?", "Bạn mua gì?"],
+	["B", "我买水果。苹果一斤多少钱？", "Wǒ mǎi shuǐguǒ. Píngguǒ yī jīn duōshǎo qián?", "Tôi mua trái cây. Một cân táo bao nhiêu tiền?"],
+	["A", "三块。", "Sān kuài.", "Ba đồng."],
+	["B", "三块？太贵了。两块五吧。", "Sān kuài? Tài guìle. Liǎng kuài wǔ ba.", "Ba đồng? Hơi đắt rồi. Hai đồng năm nhé."],
+	["A", "你要几斤？", "Nǐ yào jǐ jīn?", "Bạn muốn mấy cân?"],
+	["B", "我买五斤。", "Wǒ mǎi wǔ jīn.", "Tôi mua năm cân."],
+	["A", "还要别的吗？", "Hái yào bié de ma?", "Còn muốn cái khác không?"],
+	["B", "橘子怎么卖？", "Júzi zěnme mài?", "Quýt bán thế nào?"],
+	["A", "两块。", "Liǎng kuài.", "Hai đồng."],
+	["B", "要两斤。一共多少钱？", "Yào liǎng jīn. Yīgòng duōshǎo qián?", "Muốn hai cân. Tổng cộng bao nhiêu tiền?"],
+	["A", "一共十六块五（毛）。你给十六块吧。", "Yīgòng shíliù kuài wǔ (máo). Nǐ gěi shíliù kuài ba.", "tổng cộng mười sáu đồng năm. Bạn đưa mười sáu nhé."],
+	["B", "给你钱。", "Gěi nǐ qián.", "Gửi bạn tiền"],
+	["A", "这是五十，找您三十四块。", "Zhè shì wǔshí, zhǎo nín sānshísì kuài.", "Đây là năm mươi. Trả ngài ba mươi tư đồng."]
 ];
 
 var vocabulary_array = [

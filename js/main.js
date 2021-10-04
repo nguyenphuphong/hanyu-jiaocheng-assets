@@ -84,7 +84,8 @@ function building_listening_block() {
 		build_string += "<div class=\"row\">";
 		build_string += "<div class=\"col-80 none-display-at-smallscreen\">" + speech[0] + ": </div>";
 		build_string += "<div class=\"col-320\">" + speech[1] + "</div>";
-		build_string += "<div class=\"col-minus-420 font-size-12pt-at-smallscreen transform-lowercase\">" + speech[2] + "</div>";
+		build_string += "<div class=\"col-320 font-size-12pt-at-smallscreen transform-lowercase\">" + speech[2] + "</div>";
+		build_string += "<div class=\"col-320 vietnamese font-size-12pt-at-smallscreen\">" + speech[3] + "</div>";
 		build_string += "</div>";
 	}
 

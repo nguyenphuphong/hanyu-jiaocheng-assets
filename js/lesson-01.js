@@ -1,6 +1,6 @@
 var listening_array = [
-	["A", "你好!", "Nǐ hǎo!"],
-	["B", "你好!", "Nǐ hǎo!"],
+	["A", "你好!", "Nǐ hǎo!", "Xin chào!"],
+	["B", "你好!", "Nǐ hǎo!", "Xin chào!"]
 ];
 
 var vocabulary_array = [

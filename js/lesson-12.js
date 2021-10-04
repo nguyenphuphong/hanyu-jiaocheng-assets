@@ -1,17 +1,17 @@
 var listening_array = [
 	["（一）你在哪儿学习汉语"],
-	["A", "你在哪儿学习汉语？", "Nǐ zài nǎ'er xuéxí hànyǔ?"],
-	["B", "在北京语言大学。", "Zài běijīng yǔyán dàxué."],
-	["A", "你们的老师怎么样？", "Nǐmen de lǎoshī zěnme yàng?"],
-	["B", "很好！", "Hěn hǎo!"],
-	["A", "你觉得学习韩语难吗？", "Nǐ juédé xuéxí hányǔ nán ma?"],
-	["B", "我觉得语法不太难。听和说也比较容易，但是读和写很难。", "Wǒ juédé yǔfǎ bù tài nán. Tīng hé shuō yě bǐjiào róngyì, dànshì dú hé xiě hěn nán."],
+	["A", "你在哪儿学习汉语？", "Nǐ zài nǎ'er xuéxí hànyǔ?", "Bạn học tiếng Hán ỏ đâu?"],
+	["B", "在北京语言大学。", "Zài běijīng yǔyán dàxué.", "Tại đại học ngôn ngữ Bắc Kinh."],
+	["A", "你们的老师怎么样？", "Nǐmen de lǎoshī zěnme yàng?", "Thầy giáo của bạn như thế nào?"],
+	["B", "很好！", "Hěn hǎo!", "Rất tốt!"],
+	["A", "你觉得学习韩语难吗？", "Nǐ juédé xuéxí hányǔ nán ma?", "Bạn cảm thấy học tiếng Hán khó không?"],
+	["B", "我觉得语法不太难。听和说也比较容易，但是读和写很难。", "Wǒ juédé yǔfǎ bù tài nán. Tīng hé shuō yě bǐjiào róngyì, dànshì dú hé xiě hěn nán.", "Tôi cảm thấy ngữ pháp không khó lắm. Nghe và Nói cũng dể hơn so với (ngữ pháp), nhưng đọc và viết rất khó."],
 	["（二）你们的老师是谁"],
-	["A", "我给你们介绍一下儿，这位是新同学，是我的同屋。", "Wǒ gěi nǐmen jièshào yīxià er, zhè wèi shì xīn tóngxué, shì wǒ de tóng wū."],
-	["B", "你在哪个班学习？", "Nǐ zài nǎge bān xuéxí?"],
-	["C", "在103班。", "Zài yāo líng sān bān."],
-	["B", "你们的老师是谁？", "Nǐmen de lǎoshī shì shéi?"],
-	["C", "我们的老师是林老师。", "Wǒmen de lǎoshī shì lín lǎoshī."]
+	["A", "我给你们介绍一下儿，这位是新同学，是我的同屋。", "Wǒ gěi nǐmen jièshào yīxià er, zhè wèi shì xīn tóngxué, shì wǒ de tóng wū.", "Tôi xin giới thiệu với mọi người một chút, vị này là bạn học mới, là bạn cùng phòng với tôi."],
+	["B", "你在哪个班学习？", "Nǐ zài nǎge bān xuéxí?", "Bạn học tại lớp nào?"],
+	["C", "在103班。", "Zài yāo líng sān bān.", "Tại lớp 103."],
+	["B", "你们的老师是谁？", "Nǐmen de lǎoshī shì shéi?", "Thầy giáo của bạn là ai?"],
+	["C", "我们的老师是林老师。", "Wǒmen de lǎoshī shì lín lǎoshī.", "Thầy giáo của chúng tôi là thầy giáo Lâm."]
 ];
 
 var vocabulary_array = [

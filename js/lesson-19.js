@@ -14,7 +14,7 @@ var listening_array = [
 	["玛丽", "这种羽绒服怎么买？", "Zhè zhǒng yǔróngfú zěnme mǎi?"],
 	["售货员", "一件四百块。", "Yī jiàn sìbǎi kuài."],
 	["玛丽", "太贵了。便宜一点儿吧，二百怎么样？", "Tài guìle. Piányí yīdiǎn er ba, èrbǎi zěnme yàng?"],
-	["售货员", "二百台少了，不买。可以打八折，你给三百二把。", "Èrbǎi tái shǎole, bú mǎi. Kěyǐ dǎ bā zhé, nǐ gěi sānbǎi èr bǎ."],
+	["售货员", "二百太少了，不买。可以打八折，你给三百二把。", "Èrbǎi tài shǎole, bú mǎi. Kěyǐ dǎ bā zhé, nǐ gěi sānbǎi èr bǎ."],
 	["玛丽", "三百行不行？", "Sānbǎi xíng bùxíng?"],
 	["售货员", "给你吧。", "Gěi nǐ ba."]
 ];

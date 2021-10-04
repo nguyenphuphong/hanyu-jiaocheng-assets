@@ -1,15 +1,15 @@
 var listening_array = [
 	["（一）你去哪儿"],
-	["A", "今天星期几？", "Jīntiān xīngqí jǐ?"],
-	["B", "今天星期二。", "Jīntiān xīngqí'èr."],
-	["A", "你去哪儿？", "Nǐ qù nǎ'er?"],
-	["B", "我去天安门，你去不去？", "Wǒ qù tiān'ānmén, nǐ qù bù qù?"],
-	["A", "不去，我回学校。", "Bù qù, wǒ huí xuéxiào."],
-	["B", "再见！", "Zàijiàn!"],
-	["A", "再见！", "Zàijiàn!"],
+	["A", "今天星期几？", "Jīntiān xīngqí jǐ?", "Hôm nay là thứ mấy?"],
+	["B", "今天星期二。", "Jīntiān xīngqí'èr.", "Hôm nay là thứ ba."],
+	["A", "你去哪儿？", "Nǐ qù nǎ'er?", "Bạn đi đâu đấy?"],
+	["B", "我去天安门，你去不去？", "Wǒ qù tiān'ānmén, nǐ qù bù qù?", "Tôi đi Thiên An Môn, bạn đi không?"],
+	["A", "不去，我回学校。", "Bù qù, wǒ huí xuéxiào.", "Không đi, tôi về trường học."],
+	["B", "再见！", "Zàijiàn!", "Tạm biệt!"],
+	["A", "再见！", "Zàijiàn!", "Tạm biệt!"],
 	["（二）对不起"],
-	["A", "对不起！", "Duìbùqǐ!"],
-	["B", "没关系！", "Méiguānxì!"]
+	["A", "对不起！", "Duìbùqǐ!", "Xin lỗi!"],
+	["B", "没关系！", "Méiguānxì!", "Không có gì!"]
 ];
 
 var vocabulary_array = [

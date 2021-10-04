@@ -1,22 +1,22 @@
 var listening_array = [
 	["（一）这个黑箱子很重"],
 	["（在机场）"],
-	["A", "你没有箱子吗？", "Nǐ méiyǒu xiāngzi ma?"],
-	["B", "有啊。我的在这儿呢。", "Yǒu a. Wǒ de zài zhè'er ne."],
-	["A", "我的很重，你的重不重？", "Wǒ de hěn zhòng, nǐ de zhòng bù chóng?"],
-	["B", "这个黑的很重，那个红的比较轻。", "Zhège hēi de hěn zhòng, nàgè hóng de bǐjiào qīng."],
-	["A", "你的箱子很新，我的很旧。", "Nǐ de xiāngzi hěn xīn, wǒ de hěn jiù."],
-	["B", "那个新的是朋友的。这个旧的是我的。", "Nàgè xīn de shì péngyǒu de. Zhège jiù de shì wǒ de."],
+	["A", "你没有箱子吗？", "Nǐ méiyǒu xiāngzi ma?", "Bạn không có vali à?"],
+	["B", "有啊。我的在这儿呢。", "Yǒu a. Wǒ de zài zhè'er ne.", "Có á. Vali của tôi ở đây này."],
+	["A", "我的很重，你的重不重？", "Wǒ de hěn zhòng, nǐ de zhòng bù chóng?", "Của tôi rất nặng, của bạn có nặng hay không?"],
+	["B", "这个黑的很重，那个红的比较轻。", "Zhège hēi de hěn zhòng, nàgè hóng de bǐjiào qīng.", "Cái màu đen này rất nặng, cái mày đỏ kia nhẹ hơn."],
+	["A", "你的箱子很新，我的很旧。", "Nǐ de xiāngzi hěn xīn, wǒ de hěn jiù.", "Vali của bạn mới nhĩ, của tội cũ quá."],
+	["B", "那个新的是朋友的。这个旧的是我的。", "Nàgè xīn de shì péngyǒu de. Zhège jiù de shì wǒ de.", "Cái mới đó là của bạn tôi. Cái cũ này là của tôi."],
 	["（二）这是不是中药"],
 	["（在海关）"],
-	["A", "先生，这些黑的是什么东西？", "Xiānshēng, zhèxiē hēi de shì shénme dōngxī?"],
-	["B", "这是一些药。", "Zhè shì yīxiē yào."],
-	["A", "什么药？", "Shénme yào?"],
-	["B", "中药。", "Zhōngyào."],
-	["A", "这是不是药？", "Zhè shì bùshì yào?"],
-	["B", "这不是药，这是茶叶。", "Zhè bùshì yào, zhè shì cháyè."],
-	["A", "那个箱子里是什么？", "Nàgè xiāngzi lǐ shì shénme?"],
-	["B", "都是日用品。有两件衣服，一把雨伞和一瓶香水，还有一本书，一本词典，两张光盘和三只笔。", "Dōu shì rìyòngpǐn. Yǒu liǎng jiàn yīfú, yī bǎ yǔsǎn hé yī píng xiāngshuǐ, hái yǒuyī běn shū, yī běn cídiǎn, liǎng zhāng guāngpán hé sān zhī bǐ."]
+	["A", "先生，这些黑的是什么东西？", "Xiānshēng, zhèxiē hēi de shì shénme dōngxī?", "Tiên sinh, những cái đồ màu đen này là gì?"],
+	["B", "这是一些药。", "Zhè shì yīxiē yào.", "Đây là một số loại thuốc."],
+	["A", "什么药？", "Shénme yào?", "Là thuốc gì?"],
+	["B", "中药。", "Zhōngyào.", "Thuốc Bắc."],
+	["A", "这是不是药？", "Zhè shì bùshì yào?", "Đây là thuốc hay không?"],
+	["B", "这不是药，这是茶叶。", "Zhè bùshì yào, zhè shì cháyè.", "Đây không phải là thuốc, đây là lá trà."],
+	["A", "那个箱子里是什么？", "Nàgè xiāngzi lǐ shì shénme?", "Bên trong cái vali đó có gì?"],
+	["B", "都是日用品。有两件衣服，一把雨伞和一瓶香水，还有一本书，一本词典，两张光盘和三只笔。", "Dōu shì rìyòngpǐn. Yǒu liǎng jiàn yīfú, yī bǎ yǔsǎn hé yī píng xiāngshuǐ, hái yǒuyī běn shū, yī běn cídiǎn, liǎng zhāng guāngpán hé sān zhī bǐ.", "Đều là đồ dùng hàng ngày. Có hai bộ quần áo, một chiếc ô và một lọ nước hoa, và cả một cuốn sách, một cuốn từ điển, hai đĩa DVD và ba cái bút."]
 ];
 
 var vocabulary_array = [

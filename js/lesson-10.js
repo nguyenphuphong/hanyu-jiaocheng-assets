@@ -1,16 +1,16 @@
 var listening_array = [
-	["李昌浩", "请问，这是办公室吗？", "Qǐngwèn, zhè shì bàngōngshì ma?"],
-	["职员", "是。你找谁？", "Shì. Nǐ zhǎo shéi?"],
-	["李昌浩", "王老师在吗？我是他的学生。", "Wáng lǎoshī zài ma? Wǒ shì tā de xuéshēng."],
-	["职员", "他不在。他在家呢。", "Tā bùzài. Tā zàijiā ne."],
-	["李昌浩", "他住哪儿？", "Tā zhù nǎ'er?"],
-	["职员", "他住十八楼一门，房间号是601。", "Tā zhù shíbā lóu yī mén, fángjiān hào shì liù líng yāo."],
-	["李昌浩", "您知道他的电话号码吗？", "Nín zhīdào tā de diànhuà hàomǎ ma?"],
-	["职员", "知道，62931074。", "Zhīdào, liù èr jiǔ sān yāo líng qī sì."],
-	["李昌浩", "他的手机号码是多少？", "Tā de shǒujī hàomǎ shì duōshǎo?"],
-	["职员", "不知道。", "Bù zhīdào."],
-	["李昌浩", "谢谢您。", "Xièxiè nín."],
-	["职员", "不客气！", "Bù kèqì!"]
+	["李昌浩", "请问，这是办公室吗？", "Qǐngwèn, zhè shì bàngōngshì ma?", "Xin hỏi, đây là phòng làm việc đúng không?"],
+	["职员", "是。你找谁？", "Shì. Nǐ zhǎo shéi?", "Đúng. Bạn tìm ai?"],
+	["李昌浩", "王老师在吗？我是他的学生。", "Wáng lǎoshī zài ma? Wǒ shì tā de xuéshēng.", "Thầy giáo Vương có ở đây không? Tôi là học sinh của ông ấy."],
+	["职员", "他不在。他在家呢。", "Tā bùzài. Tā zàijiā ne.", "Ông ấy không ở đây. Ông ấy ở nhà rồi."],
+	["李昌浩", "他住哪儿？", "Tā zhù nǎ'er?", "Ông ấy ở đâu?"],
+	["职员", "他住十八楼一门，房间号是601。", "Tā zhù shíbā lóu yī mén, fángjiān hào shì liù líng yāo.", "Ông ấy ở phòng 601, tầng mười tám."],
+	["李昌浩", "您知道他的电话号码吗？", "Nín zhīdào tā de diànhuà hàomǎ ma?", "Ngài có biết số điện thoại của ông ấy không?"],
+	["职员", "知道，62931074。", "Zhīdào, liù èr jiǔ sān yāo líng qī sì.", "Biết. 62931074."],
+	["李昌浩", "他的手机号码是多少？", "Tā de shǒujī hàomǎ shì duōshǎo?", "Số điện thoại di động của ông ta là bao nhiêu?"],
+	["职员", "不知道。", "Bù zhīdào.", "Không biết."],
+	["李昌浩", "谢谢您。", "Xièxiè nín.", "Cám ơn ngài."],
+	["职员", "不客气！", "Bù kèqì!", "Không có gì."]
 ];
 
 var vocabulary_array = [

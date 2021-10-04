@@ -1,14 +1,14 @@
 var listening_array = [
 	["（一）学汉语"],
-	["A", "你学英语吗？", "Nǐ xué yīngyǔ ma?"],
-	["B", "不，学汉语。", "Bù, xué hànyǔ."],
-	["A", "去北京吗？", "Qù běijīng ma?"],
-	["B", "对。", "Duì."],
+	["A", "你学英语吗？", "Nǐ xué yīngyǔ ma?", "Bạn học tiếng Anh à?"],
+	["B", "不，学汉语。", "Bù, xué hànyǔ.", "Không, học tiếng Hán."],
+	["A", "去北京吗？", "Qù běijīng ma?", "Đi Bắc Kinh à?"],
+	["B", "对。", "Duì.", "Đúng."],
 	["（二）明天见"],
-	["A", "你去邮局寄信吗？", "Nǐ qù yóujú jì xìn ma?"],
-	["B", "不去。去银行取钱。", "Bù qù. Qù yínháng qǔ qián."],
-	["A", "明天见！", "Míngtiān jiàn!"],
-	["B", "明天见！", "Míngtiān jiàn!"]
+	["A", "你去邮局寄信吗？", "Nǐ qù yóujú jì xìn ma?", "Bạn đi bưu điện gửi thư à?"],
+	["B", "不去。去银行取钱。", "Bù qù. Qù yínháng qǔ qián.", "Không phải. Đi ngân hàng rút tiền."],
+	["A", "明天见！", "Míngtiān jiàn!", "Ngày mai gặp!"],
+	["B", "明天见！", "Míngtiān jiàn!", "Ngày mai gặp!"]
 ];
 
 var vocabulary_array = [

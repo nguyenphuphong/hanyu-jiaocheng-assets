@@ -1,13 +1,13 @@
 var listening_array = [
-	["A", "这是王老师，这是我爸爸。", "Zhè shì wáng lǎoshī, zhè shì wǒ bàba."],
-	["B", "王老师，您好！", "Wáng lǎoshī, nín hǎo!"],
-	["C", "您好！请进！请坐！请喝茶！", "Nín hǎo! Qǐng jìn! Qǐng zuò! Qǐng hē chá!"],
-	["B", "谢谢！", "Xièxiè!"],
-	["C", "不客气！", "Bù kèqì!"],
-	["C", "工作忙吗？", "Gōngzuò máng ma?"],
-	["B", "不太忙。", "Bù tài máng."],
-	["C", "身体好吗？", "Shēntǐ hǎo ma?"],
-	["B", "很好！", "Hěn hǎo!"]
+	["A", "这是王老师，这是我爸爸。", "Zhè shì wáng lǎoshī, zhè shì wǒ bàba.", "Đây là thầy giáo Vương, đây là bố của tôi."],
+	["B", "王老师，您好！", "Wáng lǎoshī, nín hǎo!", "Thầy giáo Vương, chào ngài!"],
+	["C", "您好！请进！请坐！请喝茶！", "Nín hǎo! Qǐng jìn! Qǐng zuò! Qǐng hē chá!", "Chào ngài! Mời vào! Mời ngồi! Mời uống trà!"],
+	["B", "谢谢！", "Xièxiè!", "Cám ơn!"],
+	["C", "不客气！", "Bù kèqì!", "Không có gì!"],
+	["C", "工作忙吗？", "Gōngzuò máng ma?", "Công việc bận không?"],
+	["B", "不太忙。", "Bù tài máng.", "Không quá bận."],
+	["C", "身体好吗？", "Shēntǐ hǎo ma?", "Sức khỏe tốt chứ?"],
+	["B", "很好！", "Hěn hǎo!", "Rất tốt!"]
 ];
 
 var vocabulary_array = [

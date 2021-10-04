@@ -1,17 +1,17 @@
 var listening_array = [
 	["（ 在教室 ）"],
-	["张东", "中午你去哪儿吃饭？", "Zhōngwǔ nǐ qù nǎ'er chīfàn?"],
-	["玛丽", "我去食堂。", "Wǒ qù shítáng."],
+	["张东", "中午你去哪儿吃饭？", "Zhōngwǔ nǐ qù nǎ'er chīfàn?", "Buổi trưa, bạn đi ăn cơm ở đâu?"],
+	["玛丽", "我去食堂。", "Wǒ qù shítáng.", "Tôi đi nhà ăn."],
 	["（ 在食堂 ）"],
-	["张东", "你吃什么？", "Nǐ chī shénme?"],
-	["玛丽", "我吃馒头。", "Wǒ chī mántou."],
-	["张东", "你要几个？", "Nǐ yào jǐ gè?"],
-	["玛丽", "一个。你吃吗？", "Yīgè. Nǐ chī ma?"],
-	["张东", "不吃， 我吃米饭。你喝什么？", "Bù chī, wǒ chī mǐfàn. Nǐ hē shénme?"],
-	["玛丽", "我要一碗鸡蛋汤。你喝吗？", "Wǒ yào yī wǎn jīdàn tāng. Nǐ hē ma?"],
-	["张东", "不喝，我喝啤酒。", "Bù hē, wǒ hē píjiǔ."],
-	["玛丽", "这些是什么？", "Zhèxiē shì shénme?"],
-	["张东", "这是饺子，这是包子，那是面条。", "Zhè shì jiǎozi, zhè shì bāozi, nà shì miàntiáo."]
+	["张东", "你吃什么？", "Nǐ chī shénme?", "Bạn ăn gì?"],
+	["玛丽", "我吃馒头。", "Wǒ chī mántou.", "Tôi ăn màn thầu (bánh bao chay)"],
+	["张东", "你要几个？", "Nǐ yào jǐ gè?", "Bạn ăn mấy cái?"],
+	["玛丽", "一个。你吃吗？", "Yīgè. Nǐ chī ma?", "Một cái. Bạn ăn không?"],
+	["张东", "不吃， 我吃米饭。你喝什么？", "Bù chī, wǒ chī mǐfàn. Nǐ hē shénme?", "Không ăn, tôi ăn cơm. Bạn uống gì?"],
+	["玛丽", "我要一碗鸡蛋汤。你喝吗？", "Wǒ yào yī wǎn jīdàn tāng. Nǐ hē ma?", "Tôi muốn một bát canh trứng. Bạn uống (ăn canh trứng) không?"],
+	["张东", "不喝，我喝啤酒。", "Bù hē, wǒ hē píjiǔ.", "Không uống, tôi uống bia."],
+	["玛丽", "这些是什么？", "Zhèxiē shì shénme?", "Những cái này là gì?"],
+	["张东", "这是饺子，这是包子，那是面条。", "Zhè shì jiǎozi, zhè shì bāozi, nà shì miàntiáo.", "Đây là háo cảo, đây là bánh bao, cái đó là mì sợi."]
 ];
 
 var vocabulary_array = [

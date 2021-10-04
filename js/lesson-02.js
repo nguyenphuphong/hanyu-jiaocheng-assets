@@ -1,8 +1,8 @@
 var listening_array = [
-	["A", "你忙吗？", "Nǐ máng ma?"],
-	["B", "很忙。", "Hěn máng."],
-	["A", "汉语难吗？", "Hànyǔ nán ma?"],
-	["B", "不太难。", "Bù tài nán."]
+	["A", "你忙吗？", "Nǐ máng ma?", "Bạn bận không?"],
+	["B", "很忙。", "Hěn máng.", "Rất bận."],
+	["A", "汉语难吗？", "Hànyǔ nán ma?", "Tiếng Hán khó không?"],
+	["B", "不太难。", "Bù tài nán.", "Không quá khó."]
 ];
 
 var vocabulary_array = [
