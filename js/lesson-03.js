@@ -6,7 +6,7 @@ var listening_array = [
 	["B", "对。", "Duì.", "Đúng."],
 	["（二）明天见"],
 	["A", "你去邮局寄信吗？", "Nǐ qù yóujú jì xìn ma?", "Bạn đi bưu điện gửi thư à?"],
-	["B", "不去。去银行取钱。", "Bù qù. Qù yínháng qǔ qián.", "Không phải. Đi ngân hàng rút tiền."],
+	["B", "不去。去银行取钱。", "Bù qù. Qù yínháng qǔ qián.", "Không đi. Đi ngân hàng rút tiền."],
 	["A", "明天见！", "Míngtiān jiàn!", "Ngày mai gặp!"],
 	["B", "明天见！", "Míngtiān jiàn!", "Ngày mai gặp!"]
 ];

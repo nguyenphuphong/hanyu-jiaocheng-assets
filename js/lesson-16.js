@@ -1,18 +1,18 @@
 var listening_array = [
 	["（一）你常去图书馆吗"],
-	["玛丽", "我现在去图书馆，你跟我一起去，好吗？", "Wǒ xiànzài qù túshū guǎn, nǐ gēn wǒ yīqǐ qù, hǎo ma?"],
-	["麦克", "好，咱们走吧。… 你常去图书馆吗？", "Hǎo, zánmen zǒu ba.… Nǐ cháng qù túshū guǎn ma?"],
-	["玛丽", "常去。我常借书，也常在那儿看书。你呢？常去吗？", "Cháng qù. Wǒ cháng jiè shū, yě cháng zài nà'er kànshū. Nǐ ne? Cháng qù ma?"],
-	["麦克", "我也常去。有时候借书，有时候上网查资料，但不常在那儿看书。我总在宿舍看书。", "Wǒ yě cháng qù. Yǒu shíhòu jiè shū, yǒu shíhòu shàngwǎng chá zīliào, dàn bù cháng zài nà'er kànshū. Wǒ zǒng zài sùshè kànshū."],
-	["玛丽", "你的宿舍安静吗？", "Nǐ de sùshè ānjìng ma?"],
-	["麦克", "很安静。", "Hěn ānjìng."],
+	["玛丽", "我现在去图书馆，你跟我一起去，好吗？", "Wǒ xiànzài qù túshū guǎn, nǐ gēn wǒ yīqǐ qù, hǎo ma?", "Bây giờ tôi đi thư viện, bạn đi cùng tôi, được không?"],
+	["麦克", "好，咱们走吧。… 你常去图书馆吗？", "Hǎo, zánmen zǒu ba.… Nǐ cháng qù túshū guǎn ma?", "Được, chúng ta đi nào. Bạn thường đi thư viện không?"],
+	["玛丽", "常去。我常借书，也常在那儿看书。你呢？常去吗？", "Cháng qù. Wǒ cháng jiè shū, yě cháng zài nà'er kànshū. Nǐ ne? Cháng qù ma?", "Thường đi. Tôi thường mượn sách, cũng thường đọc sách tại đó. Bạn thì sao? thường đi không?"],
+	["麦克", "我也常去。有时候借书，有时候上网查资料，但不常在那儿看书。我总在宿舍看书。", "Wǒ yě cháng qù. Yǒu shíhòu jiè shū, yǒu shíhòu shàngwǎng chá zīliào, dàn bù cháng zài nà'er kànshū. Wǒ zǒng zài sùshè kànshū.", "Tôi cũng thường đi. Cũng thỉnh thoảng mượn sách, nhưng không đọc sách tại đó. Tôi luôn luôn đọc sách tại kí túc xá."],
+	["玛丽", "你的宿舍安静吗？", "Nǐ de sùshè ānjìng ma?", "Ký túc xá của bạn yên tĩnh không?"],
+	["麦克", "很安静。", "Hěn ānjìng.", "Rất yên tĩnh."],
 	["（二）晚上你常做什么"],
-	["A", "晚上你常做什么？", "Wǎnshàng nǐ cháng zuò shénme?"],
-	["B", "复习课文，预习生词，或者做练习。有时候上网跟朋友聊天儿或者收发伊妹儿。", "Fùxí kèwén, yùxí shēngcí, huòzhě zuò liànxí. Yǒu shíhòu shàngwǎng gēn péngyǒu liáotiān er huòzhě shōufā yī mèi er."],
-	["A", "我也是，我还常看中文电影和电视剧的DVD。你常看吗？", "Wǒ yěshì, wǒ hái cháng kàn zhòng wén diànyǐng hé diànshìjù de DVD. Nǐ cháng kàn ma?"],
-	["B", "我很少看。", "Wǒ hěn shǎo kàn."],
-	["A", "星期六和星期日你做什么？", "Xīngqíliù hé xīngqírì nǐ zuò shénme?"],
-	["B", "有时候在宿舍休息，有时候跟朋友一起去公园玩儿或者去超市买东西。", "Yǒu shíhòu zài sùshè xiūxí, yǒu shíhòu gēn péngyǒu yīqǐ qù gōngyuán wán er huòzhě qù chāoshì mǎi dōngxī."]
+	["A", "晚上你常做什么？", "Wǎnshàng nǐ cháng zuò shénme?", "Buổi tối, bạn thường làm gì?"],
+	["B", "复习课文，预习生词，或者做练习。有时候上网跟朋友聊天儿或者收发伊妹儿。", "Fùxí kèwén, yùxí shēngcí, huòzhě zuò liànxí. Yǒu shíhòu shàngwǎng gēn péngyǒu liáotiān er huòzhě shōufā yī mèi er.", "Ôn tập bài đọc, chuẩn bị từ mới, hoặc là làm bài tập. Cũng có lúc lên mạng trò chuyện cùng bạn bè hoặc là duyệt email."],
+	["A", "我也是，我还常看中文电影和电视剧的DVD。你常看吗？", "Wǒ yěshì, wǒ hái cháng kàn zhòng wén diànyǐng hé diànshìjù de DVD. Nǐ cháng kàn ma?", "Tôi cũng thê, tôi vẫn thường xem DVD phim lẽ và phim bộ Trung Quốc. Bạn có thường xem không?"],
+	["B", "我很少看。", "Wǒ hěn shǎo kàn.", "Tôi hiếm khi xem."],
+	["A", "星期六和星期日你做什么？", "Xīngqíliù hé xīngqírì nǐ zuò shénme?", "Thứ bảy và chủ nhật bạn làm gì?"],
+	["B", "有时候在宿舍休息，有时候跟朋友一起去公园玩儿或者去超市买东西。", "Yǒu shíhòu zài sùshè xiūxí, yǒu shíhòu gēn péngyǒu yīqǐ qù gōngyuán wán er huòzhě qù chāoshì mǎi dōngxī.", "Đôi lúc nghỉ ngơi tại kí túc xác, đôi lúc cùng bạn bè đi công viên chơi hoặc là đi siêu thị mua đồ."]
 ];
 
 var vocabulary_array = [

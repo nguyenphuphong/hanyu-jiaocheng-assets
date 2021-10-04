@@ -1,22 +1,22 @@
 var listening_array = [
 	["（一）可以试试吗"],
 	["（玛丽在商店买羽绒服）"],
-	["玛丽", "我看看羽绒服。", "Wǒ kàn kàn yǔróngfú."],
-	["售货员", "你看看这件怎么样？又好又便宜。", "Nǐ kàn kàn zhè jiàn zěnme yàng? Yòu hǎo yòu piányí."],
-	["玛丽", "这件有一点儿长。有短一点儿的吗？", "Zhè jiàn yǒu yīdiǎn er zhǎng. Yǒu duǎn yīdiǎn er de ma?"],
-	["售货员", "你要深颜色的还是要浅颜色的？", "Nǐ yào shēn yánsè de háishì yào qiǎn yánsè de?"],
-	["玛丽", "浅颜色的。我试试可以吗？", "Qiǎn yánsè de. Wǒ shì shì kěyǐ ma?"],
-	["售货员", "当然可以。", "Dāngrán kěyǐ."],
-	["玛丽", "这件太肥了，有没有瘦一点儿的？", "Zhè jiàn tài féile, yǒu méiyǒu shòu yīdiǎn er de?"],
-	["售货员", "你再试试这一件。", "Nǐ zài shì shì zhè yī jiàn."],
-	["玛丽", "这件不大不小，正合适，颜色也很好看。", "Zhè jiàn bù dà bù xiǎo, zhèng héshì, yánsè yě hěn hǎokàn."],
+	["玛丽", "我看看羽绒服。", "Wǒ kàn kàn yǔróngfú.", "Tôi ngắm (tìm) áo lông vũ."],
+	["售货员", "你看看这件怎么样？又好又便宜。", "Nǐ kàn kàn zhè jiàn zěnme yàng? Yòu hǎo yòu piányí.", "Bạn xem (ngắm) cái này thế nào? Vừa đẹp lại còn rẻ."],
+	["玛丽", "这件有一点儿长。有短一点儿的吗？", "Zhè jiàn yǒu yīdiǎn er zhǎng. Yǒu duǎn yīdiǎn er de ma?", "Cái này hơi dài một chút, có cái ngắn một chút không?"],
+	["售货员", "你要深颜色的还是要浅颜色的？", "Nǐ yào shēn yánsè de háishì yào qiǎn yánsè de?", "Bạn muốn cái màu đậm hay là cái màu nhạt?"],
+	["玛丽", "浅颜色的。我试试可以吗？", "Qiǎn yánsè de. Wǒ shì shì kěyǐ ma?", "Cái màu nhạt. Tôi có thể thử được không?"],
+	["售货员", "当然可以。", "Dāngrán kěyǐ.", "Đương nhiên có thể."],
+	["玛丽", "这件太肥了，有没有瘦一点儿的？", "Zhè jiàn tài féile, yǒu méiyǒu shòu yīdiǎn er de?", "Cái này to quá rồi, có cái nhỏ một chút hay không?"],
+	["售货员", "你再试试这一件。", "Nǐ zài shì shì zhè yī jiàn.", "Bạn thử lại một cái này."],
+	["玛丽", "这件不大不小，正合适，颜色也很好看。", "Zhè jiàn bù dà bù xiǎo, zhèng héshì, yánsè yě hěn hǎokàn.", "Cái này không to không nhỏ, vừa vặn, màu sác cũng rất ưa nhìn."],
 	["（二）便宜一点儿吧"],
-	["玛丽", "这种羽绒服怎么买？", "Zhè zhǒng yǔróngfú zěnme mǎi?"],
-	["售货员", "一件四百块。", "Yī jiàn sìbǎi kuài."],
-	["玛丽", "太贵了。便宜一点儿吧，二百怎么样？", "Tài guìle. Piányí yīdiǎn er ba, èrbǎi zěnme yàng?"],
-	["售货员", "二百太少了，不买。可以打八折，你给三百二把。", "Èrbǎi tài shǎole, bú mǎi. Kěyǐ dǎ bā zhé, nǐ gěi sānbǎi èr bǎ."],
-	["玛丽", "三百行不行？", "Sānbǎi xíng bùxíng?"],
-	["售货员", "给你吧。", "Gěi nǐ ba."]
+	["玛丽", "这种羽绒服怎么买？", "Zhè zhǒng yǔróngfú zěnme mǎi?", "Loại áo lông vũ này bán thế nào?"],
+	["售货员", "一件四百块。", "Yī jiàn sìbǎi kuài.", "Một cái bốn trăm đồng."],
+	["玛丽", "太贵了。便宜一点儿吧，二百怎么样？", "Tài guìle. Piányí yīdiǎn er ba, èrbǎi zěnme yàng?", "Đắt quá rồi. Rẻ một chút nhé, hai trăm thế nào nhỉ?"],
+	["售货员", "二百太少了，不卖。可以打八折，你给三百二把。", "Èrbǎi tài shǎole, bú mài. Kěyǐ dǎ bā zhé, nǐ gěi sānbǎi èr bǎ.", "Hai trăm ít quá, không bán. Có thể giảm giá tám, bạn đưa ba trăm hai nhé."],
+	["玛丽", "三百行不行？", "Sānbǎi xíng bùxíng?", "Ba trăm được hay không?"],
+	["售货员", "给你吧。", "Gěi nǐ ba.", "Đưa bạn vậy."]
 ];
 
 var vocabulary_array = [
