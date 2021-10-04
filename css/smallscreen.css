@@ -277,6 +277,10 @@ hr {
 	font-size: 12pt;
 }
 
+.font-size-11pt-at-smallscreen {
+	font-size: 11pt;
+}
+
 .font-size-10pt-at-smallscreen {
 	font-size: 10pt;
 }

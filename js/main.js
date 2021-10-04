@@ -85,7 +85,7 @@ function building_listening_block() {
 		build_string += "<div class=\"col-80 none-display-at-smallscreen\">" + speech[0] + ": </div>";
 		build_string += "<div class=\"col-250-at-widescreen col-100p-at-smallscreen \">" + speech[1] + "</div>";
 		build_string += "<div class=\"col-250-at-widescreen col-100p-at-smallscreen font-size-12pt-at-smallscreen transform-lowercase\">" + speech[2] + "</div>";
-		build_string += "<div class=\"col-250-at-widescreen col-100p-at-smallscreen vietnamese font-size-8pt-at-smallscreen font-size-18pt-at-widescreen\">" + speech[3] + "</div>";
+		build_string += "<div class=\"col-250-at-widescreen col-100p-at-smallscreen vietnamese font-size-11pt-at-smallscreen font-size-18pt-at-widescreen\">" + speech[3] + "</div>";
 		build_string += "</div>";
 	}
 
