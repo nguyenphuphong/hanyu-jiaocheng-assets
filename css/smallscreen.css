@@ -234,6 +234,11 @@ hr {
 	width: 100%;
 }
 
+.col-100p-at-smallscreen {
+	float: left;
+	width: 100%;
+}
+
 .hanzi-square {
 	font-family: pinyin;
 	font-size: 50px;

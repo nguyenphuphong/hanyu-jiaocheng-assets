@@ -236,6 +236,13 @@ hr {
 	width: calc(100% - 420px);
 }
 
+
+.col-250-at-widescreen {
+	float: left;
+	width: 250px;
+	margin-right: 10px;
+}
+
 .width-80 {
 	width: 80px;
 	display: inline-block;
